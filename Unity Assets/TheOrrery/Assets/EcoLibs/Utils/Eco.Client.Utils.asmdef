@@ -1,0 +1,24 @@
+{
+    "name": "Eco.Client.Utils",
+    "rootNamespace": "Eco.Client.Utils",
+    "references": [
+        "ThirdParty",
+        "Unity.TextMeshPro",
+        "Unity.Mathematics",
+        "Unity.Entities",
+        "Unity.Physics",
+        "Unity.Transforms",
+        "ThirdPartyPublic",
+        "Unity.Collections",
+        "UniTask"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

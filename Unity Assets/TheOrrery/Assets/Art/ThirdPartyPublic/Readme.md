@@ -1,0 +1,1 @@
+Includes extensions and other third party code that can be shared via the modkit.
