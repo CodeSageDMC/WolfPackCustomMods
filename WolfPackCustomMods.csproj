@@ -978,6 +978,9 @@
     <None Include="Unity Assets\Orrery\UserSettings\Layouts\CurrentMaximizeLayout.dwlt" />
     <None Include="Unity Assets\Orrery\UserSettings\Layouts\default-2023.dwlt" />
     <None Include="Unity Assets\Orrery\UserSettings\Search.settings" />
+    <None Include="WolfPackCustomMods-Orrery_v1_0_0.zip" />
+    <None Include="WolfPackCustomMods-Orrery_v1_0_1.zip" />
+    <None Include="WolfPackCustomMods-Orrery_v1_0_2.zip" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
