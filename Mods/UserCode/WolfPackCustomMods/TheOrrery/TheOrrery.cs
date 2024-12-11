@@ -102,6 +102,7 @@ namespace Eco.Mods.TechTree
 
         protected override void Initialize()
         {
+            
             this.ModsPreInitialize();
             this.GetComponent<MinimapComponent>().SetCategory(Localizer.DoStr("Housing"));
             this.GetComponent<MinimapComponent>().InitAsMovable();
@@ -139,10 +140,13 @@ namespace Eco.Mods.TechTree
     [Weight(5000)]
     public partial class TheOrreryItem : WorldObjectItem<TheOrreryObject>
     {
+        
         protected override OccupancyContext GetOccupancyContext => new SideAttachedContext(0 | DirectionAxisFlags.Down, WorldObject.GetOccupancyInfo(this.WorldObjectType));
+        
+       
         public override HomeFurnishingValue HomeValue => homeValue;
         public static readonly HomeFurnishingValue homeValue = new HomeFurnishingValue()
-        {
+        {                        
             ObjectName = typeof(TheOrreryObject).UILink(),
             Category = HousingConfig.GetRoomCategory("Outdoor"),
             BaseValue = 9,
