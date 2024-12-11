@@ -70,6 +70,7 @@ namespace Eco.Mods.TechTree
     public partial class OrreryObject : WorldObject, IRepresentsItem
     {
         
+
         public virtual Type RepresentedItemType => typeof(OrreryItem);
         public override LocString DisplayName => Localizer.DoStr("Orrery");
         public override TableTextureMode TableTexture => TableTextureMode.Stone;
@@ -109,8 +110,7 @@ namespace Eco.Mods.TechTree
         {
             
             this.ModsPreInitialize();
-            this.GetComponent<MinimapComponent>().SetCategory(Localizer.DoStr("Housing"));
-            this.GetComponent<MinimapComponent>().InitAsMovable();
+            this.GetComponent<MinimapComponent>().SetCategory(Localizer.DoStr("Housing"));            
             this.GetComponent<HousingComponent>().HomeValue = OrreryItem.homeValue;
             this.GetComponent<PowerConsumptionComponent>().Initialize(20);
             this.GetComponent<PowerGridComponent>().Initialize(5, new MechanicalPower());
@@ -121,11 +121,15 @@ namespace Eco.Mods.TechTree
                                         new() { TypeName = nameof(IronGearItem), Quantity = 1},
                                         new() { TypeName = nameof(LubricantItem), Quantity = 1},
                                     });
-                this.GetComponent<PowerGridComponent>().DurabilityUsedPerHourOfUse = 1.4f;
+                this.GetComponent<PowerGridComponent>().DurabilityUsedPerHourOfUse = 1f;
             }
         }
 
+        
+        
+    
 
+    
 
     
 
@@ -181,7 +185,7 @@ namespace Eco.Mods.TechTree
     //Recipe
 
 
-    [RequiresModule(typeof())]
+    
     [RequiresSkill(typeof(BasicEngineeringSkill), 6)]
     [Ecopedia("Housing Objects", "Outdoor", subPageName: "Orrery Item")]
     public partial class OrreryRecipe : RecipeFamily

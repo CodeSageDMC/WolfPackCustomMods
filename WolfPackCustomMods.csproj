@@ -843,7 +843,6 @@
     <None Include="Unity Assets\Orrery\Assets\Models\Orrery\model.fbx.meta" />
     <None Include="Unity Assets\Orrery\Assets\Models\Orrery\OrreryAnimatorController.controller" />
     <None Include="Unity Assets\Orrery\Assets\Models\Orrery\OrreryAnimatorController.controller.meta" />
-    <None Include="Unity Assets\Orrery\Assets\Models\Orrery\OrreryItem_Icon.jpg.meta" />
     <None Include="Unity Assets\Orrery\Assets\Scenes.meta" />
     <None Include="Unity Assets\Orrery\Assets\Scenes\Orrery.unity" />
     <None Include="Unity Assets\Orrery\Assets\Scenes\Orrery.unity.meta" />
@@ -1056,7 +1055,7 @@
     <Content Include="Unity Assets\Orrery\Assets\Models\Orrery\materials\Venus_mt_AO.jpeg" />
     <Content Include="Unity Assets\Orrery\Assets\Models\Orrery\materials\Venus_mt_normal.png" />
     <Content Include="Unity Assets\Orrery\Assets\Models\Orrery\materials\Venus_mt_roughness.jpeg" />
-    <Content Include="Unity Assets\Orrery\Assets\Models\Orrery\OrreryItem_Icon.jpg" />
+    <Content Include="Unity Assets\Orrery\Assets\Models\Orrery\OrreryItem_Icon.png" />
     <Content Include="Unity Assets\Orrery\Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
     <Content Include="Unity Assets\Orrery\Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
     <Content Include="Unity Assets\Orrery\Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
