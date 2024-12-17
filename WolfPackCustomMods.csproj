@@ -331,6 +331,7 @@
     <Compile Include="Unity Assets\Orrery\Assets\EcoModKit\VoxelEngine\WeightedPrefabBlockBuilder.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="CombinedFarming_v1_1.zip" />
     <None Include="CustomFoodOverhaul_Greenhouses_FarmingRevised.zip" />
     <None Include="FarmingRevised_v1_0.zip" />
     <None Include="Server\Mods\UserCode\WolfPackCustomMods\Orrery\Orrery.unity3d" />
