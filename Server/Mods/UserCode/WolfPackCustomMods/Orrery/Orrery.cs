@@ -15,6 +15,7 @@ namespace Eco.Mods.TechTree
     using Eco.Gameplay.Economy;
     using Eco.Gameplay.Housing;
     using Eco.Gameplay.Interactions;
+    using Eco.Gameplay.Interactions.Interactors;
     using Eco.Gameplay.Items;
     using Eco.Gameplay.Modules;
     using Eco.Gameplay.Minimap;
@@ -47,6 +48,9 @@ namespace Eco.Mods.TechTree
     using static Eco.Gameplay.Housing.PropertyValues.HomeFurnishingValue;
     using static Eco.Gameplay.Components.PartsComponent;
     using Eco.Gameplay.Items.Recipes;
+    using Eco.Shared.SharedTypes;
+    using Eco.Gameplay.Civics.GameValues;
+    
 
 
 
@@ -54,8 +58,7 @@ namespace Eco.Mods.TechTree
 
 
     [Serialized]
-    [RequireComponent(typeof(OnOffComponent))]
-    [RequireComponent(typeof(MinimapComponent))]
+    [RequireComponent(typeof(OnOffComponent))]    
     [RequireComponent(typeof(PropertyAuthComponent))]
     [RequireComponent(typeof(HousingComponent))]
     [RequireComponent(typeof(OccupancyRequirementComponent))]
@@ -67,8 +70,10 @@ namespace Eco.Mods.TechTree
     [Ecopedia("Housing Objects", "Outdoor", subPageName: "Orrery Item")]
     [RepairRequiresSkill(typeof(BasicEngineeringSkill), 2)]
     [RepairRequiresSkill(typeof(SelfImprovementSkill), 5)]
-    public partial class OrreryObject : WorldObject, IRepresentsItem
+    public partial class OrreryObject : WorldObject, IRepresentsItem, IHasInteractions
     {
+        private OnOffComponent switchComponent;
+        
         
 
         public virtual Type RepresentedItemType => typeof(OrreryItem);
@@ -99,39 +104,56 @@ namespace Eco.Mods.TechTree
             new BlockOccupancy(new Vector3i(0, 3, 1)),
             new BlockOccupancy(new Vector3i(1, 3, 1)),
             });
-
-
-
         }
 
+        class OrreryMessagesContainer : OnOffComponent.IOnOffMessagesContainer
+        {
+            public LocString TurnOnMessage => Localizer.DoStr("Off");
+            public LocString TurnOffMessage => Localizer.DoStr("On");
+            public LocString TurnedOnMessage => Localizer.DoStr("Off");
+            public LocString TurnedOffMessage => Localizer.DoStr("On");
+            public LocString NotAuthedMessage => Localizer.DoStr("You are not authorized to On/Off this Orrery.");
+            public LocString InvalidStatusMessage => Localizer.DoStr("This Orrery has an invalid status and cannot ineract.");
+        }
 
+        static OrreryMessagesContainer msgContainer = new OrreryMessagesContainer();
+        
 
         protected override void Initialize()
         {
             
             this.ModsPreInitialize();
-            this.GetComponent<MinimapComponent>().SetCategory(Localizer.DoStr("Housing"));            
+            switchComponent = this.GetComponent<OnOffComponent>();
+            switchComponent.Setup(null, AccessType.ConsumerAccess, true, msgContainer);                      
             this.GetComponent<HousingComponent>().HomeValue = OrreryItem.homeValue;
-            this.GetComponent<PowerConsumptionComponent>().Initialize(20);
-            this.GetComponent<PowerGridComponent>().Initialize(5, new MechanicalPower());
+            this.GetComponent<PowerConsumptionComponent>().Initialize(100);           
+            this.GetComponent<PowerGridComponent>().Initialize(5, new ElectricPower());
             this.ModsPostInitialize();
                     {
                 this.GetComponent<PartsComponent>().Config(() => LocString.Empty, new PartInfo[]
                                     {
-                                        new() { TypeName = nameof(IronGearItem), Quantity = 1},
+                                        new() { TypeName = nameof(LightBulbItem), Quantity = 1},
                                         new() { TypeName = nameof(LubricantItem), Quantity = 1},
                                     });
-                this.GetComponent<PowerGridComponent>().DurabilityUsedPerHourOfUse = 1f;
+                this.GetComponent<PowerGridComponent>().DurabilityUsedPerHourOfUse = .75f;
             }
         }
 
-        
-        
-    
 
-    
+        [Interaction(InteractionTrigger.RightClick, "On/Off", MinCaloriesRequired = 0)]
+        public void Toggle(Player player, InteractionTriggerInfo trigger, InteractionTarget target)
+        {
 
-    
+            if (target.ContainsParameter("OrreryButton"))
+            {
+                this.switchComponent.SwitchState(player);
+            }
+        }
+
+      
+
+
+
 
 
         partial void ModsPreInitialize();
@@ -158,20 +180,21 @@ namespace Eco.Mods.TechTree
     {
         
         protected override OccupancyContext GetOccupancyContext => new SideAttachedContext(0 | DirectionAxisFlags.Down, WorldObject.GetOccupancyInfo(this.WorldObjectType));
+
         
-       
         public override HomeFurnishingValue HomeValue => homeValue;
         public static readonly HomeFurnishingValue homeValue = new HomeFurnishingValue()
-        {                        
-            ObjectName = typeof(OrreryObject).UILink(),
-            Category = HousingConfig.GetRoomCategory("Outdoor"),
-            BaseValue = 9,
-            TypeForRoomLimit = Localizer.DoStr("Orrery"),
-            DiminishingReturnMultiplier = 0.01f
+                {
+                    ObjectName = typeof(OrreryObject).UILink(),
+                    Category = HousingConfig.GetRoomCategory("Outdoor"),
+                    BaseValue = 9,
+                    TypeForRoomLimit = Localizer.DoStr("Orrery"),
+                    DiminishingReturnMultiplier = 0.01f
+                };
 
-        };
-        [NewTooltip(CacheAs.SubType, 7)] public static LocString PowerConsumptionTooltip() => Localizer.Do($"Consumes: {Text.Info(20)}w of {new MechanicalPower().Name} power.");
+        [NewTooltip(CacheAs.SubType, 7)] public static LocString PowerConsumptionTooltip() => Localizer.Do($"Consumes: {Text.Info(100)}w of {new ElectricPower().Name} power.");
         [Serialized, SyncToView, NewTooltipChildren(CacheAs.Instance, flags: TTFlags.AllowNonControllerTypeForChildren)] public object PersistentData { get; set; }
+        
     }
 
 
@@ -205,6 +228,8 @@ namespace Eco.Mods.TechTree
                     new IngredientElement(typeof(IronGearItem), 42, true),
                     new IngredientElement(typeof(LubricantItem), 2, typeof(BasicEngineeringSkill), typeof(BasicEngineeringLavishResourcesTalent)),
                     new IngredientElement(typeof(ClayItem), 15, typeof(BasicEngineeringSkill), typeof(BasicEngineeringLavishResourcesTalent)),
+                    new IngredientElement(typeof(LightBulbItem), 10, true),
+                    new IngredientElement(typeof(CopperWiringItem), 10, typeof(BasicEngineeringSkill), typeof(BasicEngineeringLavishResourcesTalent)),
                     new IngredientElement(typeof(BasaltItem), 24, typeof(BasicEngineeringSkill), typeof(BasicEngineeringLavishResourcesTalent)),
                 },
 

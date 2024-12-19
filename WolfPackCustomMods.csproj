@@ -984,6 +984,7 @@
     <None Include="WolfPackCustomMods-Orrery_v1_0_0.zip" />
     <None Include="WolfPackCustomMods-Orrery_v1_0_1.zip" />
     <None Include="WolfPackCustomMods-Orrery_v1_0_2.zip" />
+    <None Include="WolfPackCustomMods-Orrery_v1_0_3.zip" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
