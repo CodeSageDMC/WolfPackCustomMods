@@ -83,8 +83,49 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Server\Mods\UserCode\WolfPackCustomMods\Eco420\Cannabis\Cannabis.cs" />
+    <Compile Include="Server\Mods\UserCode\WolfPackCustomMods\Eco420\Cannabis\CannabisBud.cs" />
+    <Compile Include="Server\Mods\UserCode\WolfPackCustomMods\Eco420\Cannabis\CannabisCookingOil.cs" />
+    <Compile Include="Server\Mods\UserCode\WolfPackCustomMods\Eco420\Cannabis\CannabisJoint.cs" />
+    <Compile Include="Server\Mods\UserCode\WolfPackCustomMods\Eco420\Cannabis\CannabisLeaves.cs" />
+    <Compile Include="Server\Mods\UserCode\WolfPackCustomMods\Eco420\Cannabis\DecarboxylatedCannabis.cs" />
+    <Compile Include="Server\Mods\UserCode\WolfPackCustomMods\Eco420\Cannabis\DriedCannabisBud.cs" />
+    <Compile Include="Server\Mods\UserCode\WolfPackCustomMods\Eco420\Cannabis\GroundCannabis.cs" />
+    <Compile Include="Server\Mods\UserCode\WolfPackCustomMods\Eco420\Cannabis\HempCheesecloth.cs" />
+    <Compile Include="Server\Mods\UserCode\WolfPackCustomMods\Eco420\Cannabis\HempFabric.cs" />
+    <Compile Include="Server\Mods\UserCode\WolfPackCustomMods\Eco420\Cannabis\HempFiber.cs" />
+    <Compile Include="Server\Mods\UserCode\WolfPackCustomMods\Eco420\Cannabis\HempYarn.cs" />
+    <Compile Include="Server\Mods\UserCode\WolfPackCustomMods\Eco420\Cannabis\JarOfCuredCannabisBuds.cs" />
+    <Compile Include="Server\Mods\UserCode\WolfPackCustomMods\Eco420\Cannabis\TrimmedCannabisBud.cs" />
+    <Compile Include="Server\Mods\UserCode\WolfPackCustomMods\Eco420\Eco420ModRegistration.cs" />
+    <Compile Include="Server\Mods\UserCode\WolfPackCustomMods\Eco420\Food\CannabisInfusedBerryCookies.cs" />
+    <Compile Include="Server\Mods\UserCode\WolfPackCustomMods\Eco420\Food\CannabisInfusedCheesyBread.cs" />
+    <Compile Include="Server\Mods\UserCode\WolfPackCustomMods\Eco420\Food\CannabisInfusedSpringRisotto.cs" />
+    <Compile Include="Server\Mods\UserCode\WolfPackCustomMods\Eco420\Food\CannabisInfusedStirFry.cs" />
+    <Compile Include="Server\Mods\UserCode\WolfPackCustomMods\Eco420\Objects\CannabisGrowBox.cs" />
+    <Compile Include="Server\Mods\UserCode\WolfPackCustomMods\Eco420\Objects\CannabisPlant.cs" />
+    <Compile Include="Server\Mods\UserCode\WolfPackCustomMods\Eco420\Objects\CannabisWorkbench.cs" />
+    <Compile Include="Server\Mods\UserCode\WolfPackCustomMods\Eco420\Support\Bong.cs" />
+    <Compile Include="Server\Mods\UserCode\WolfPackCustomMods\Eco420\Support\Clip.cs" />
+    <Compile Include="Server\Mods\UserCode\WolfPackCustomMods\Eco420\Support\FlaxEgg.cs" />
+    <Compile Include="Server\Mods\UserCode\WolfPackCustomMods\Eco420\Support\Grinder.cs" />
+    <Compile Include="Server\Mods\UserCode\WolfPackCustomMods\Eco420\Support\GroundFlaxseed.cs" />
+    <Compile Include="Server\Mods\UserCode\WolfPackCustomMods\Eco420\Support\GrowBoxFan.cs" />
+    <Compile Include="Server\Mods\UserCode\WolfPackCustomMods\Eco420\Support\HeatLampBulb.cs" />
+    <Compile Include="Server\Mods\UserCode\WolfPackCustomMods\Eco420\Support\IronSpring.cs" />
+    <Compile Include="Server\Mods\UserCode\WolfPackCustomMods\Eco420\Support\Jar.cs" />
+    <Compile Include="Server\Mods\UserCode\WolfPackCustomMods\Eco420\Support\JarLid.cs" />
+    <Compile Include="Server\Mods\UserCode\WolfPackCustomMods\Eco420\Support\Magic.cs" />
+    <Compile Include="Server\Mods\UserCode\WolfPackCustomMods\Eco420\Support\Matches.cs" />
+    <Compile Include="Server\Mods\UserCode\WolfPackCustomMods\Eco420\Support\RollingPapers.cs" />
+    <Compile Include="Server\Mods\UserCode\WolfPackCustomMods\Eco420\Support\Scissors.cs" />
+    <Compile Include="Server\Mods\UserCode\WolfPackCustomMods\Eco420\Support\SelfImprovementTalents.cs" />
+    <Compile Include="Server\Mods\UserCode\WolfPackCustomMods\Eco420\Support\SurvivalistUpgrade.cs" />
+    <Compile Include="Server\Mods\UserCode\WolfPackCustomMods\Eco420\Support\Wax.cs" />
+    <Compile Include="Server\Mods\UserCode\WolfPackCustomMods\Eco420\Support\WheatPasteGlue.cs" />
     <Compile Include="Server\Mods\UserCode\WolfPackCustomMods\Orrery\Orrery.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Server\Mods\UserCode\WolfPackCustomMods\Orrery\OrreryMini.cs" />
     <Compile Include="Unity Assets\Orrery\Assets\Art\ThirdPartyPublic\DOTween\Modules\DOTweenModuleAudio.cs" />
     <Compile Include="Unity Assets\Orrery\Assets\Art\ThirdPartyPublic\DOTween\Modules\DOTweenModulePhysics.cs" />
     <Compile Include="Unity Assets\Orrery\Assets\Art\ThirdPartyPublic\DOTween\Modules\DOTweenModulePhysics2D.cs" />
@@ -334,6 +375,7 @@
     <None Include="CombinedFarming_v1_1.zip" />
     <None Include="CustomFoodOverhaul_Greenhouses_FarmingRevised.zip" />
     <None Include="FarmingRevised_v1_0.zip" />
+    <None Include="Server\Mods\UserCode\WolfPackCustomMods\Eco420\Assets\Eco420.unity3d" />
     <None Include="Server\Mods\UserCode\WolfPackCustomMods\Orrery\Orrery.unity3d" />
     <None Include="Unity Assets\Orrery\Assets\Art.meta" />
     <None Include="Unity Assets\Orrery\Assets\Art\ThirdPartyPublic.meta" />
@@ -981,13 +1023,17 @@
     <None Include="Unity Assets\Orrery\UserSettings\Layouts\CurrentMaximizeLayout.dwlt" />
     <None Include="Unity Assets\Orrery\UserSettings\Layouts\default-2023.dwlt" />
     <None Include="Unity Assets\Orrery\UserSettings\Search.settings" />
+    <None Include="WolfPackCustomMods-Eco420_v1.0.zip" />
     <None Include="WolfPackCustomMods-Orrery_v1_0_0.zip" />
     <None Include="WolfPackCustomMods-Orrery_v1_0_1.zip" />
     <None Include="WolfPackCustomMods-Orrery_v1_0_2.zip" />
     <None Include="WolfPackCustomMods-Orrery_v1_0_3.zip" />
+    <None Include="WolfPackCustomMods-Orrery_v2.0.zip" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
+    <Content Include="Server\Mods\UserCode\WolfPackCustomMods\Eco420\Eco420_Readme.txt" />
+    <Content Include="Server\Mods\UserCode\WolfPackCustomMods\Orrery\Orrery_Readme.txt" />
     <Content Include="Unity Assets\Orrery\Assets\Art\ThirdPartyPublic\DOTween\DOTween.dll" />
     <Content Include="Unity Assets\Orrery\Assets\Art\ThirdPartyPublic\DOTween\DOTween.XML" />
     <Content Include="Unity Assets\Orrery\Assets\Art\ThirdPartyPublic\DOTween\Editor\DOTweenEditor.XML" />

@@ -68,7 +68,7 @@ namespace Eco.Mods.TechTree
     [RequireComponent(typeof(PartsComponent))]
     [Tag("Usable")]
     [Ecopedia("Housing Objects", "Outdoor", subPageName: "Orrery Item")]
-    [RepairRequiresSkill(typeof(BasicEngineeringSkill), 2)]
+    [RepairRequiresSkill(typeof(MechanicsSkill), 2)]
     [RepairRequiresSkill(typeof(SelfImprovementSkill), 5)]
     public partial class OrreryObject : WorldObject, IRepresentsItem, IHasInteractions
     {
@@ -127,15 +127,15 @@ namespace Eco.Mods.TechTree
             switchComponent.Setup(null, AccessType.ConsumerAccess, true, msgContainer);                      
             this.GetComponent<HousingComponent>().HomeValue = OrreryItem.homeValue;
             this.GetComponent<PowerConsumptionComponent>().Initialize(100);           
-            this.GetComponent<PowerGridComponent>().Initialize(5, new ElectricPower());
+            this.GetComponent<PowerGridComponent>().Initialize(10, new ElectricPower());
             this.ModsPostInitialize();
                     {
                 this.GetComponent<PartsComponent>().Config(() => LocString.Empty, new PartInfo[]
                                     {
-                                        new() { TypeName = nameof(LightBulbItem), Quantity = 1},
+                                        new() { TypeName = nameof(LightBulbItem), Quantity = 2},
                                         new() { TypeName = nameof(LubricantItem), Quantity = 1},
                                     });
-                this.GetComponent<PowerGridComponent>().DurabilityUsedPerHourOfUse = .75f;
+                this.GetComponent<PowerGridComponent>().DurabilityUsedPerHourOfUse = .01f;
             }
         }
 
@@ -172,7 +172,7 @@ namespace Eco.Mods.TechTree
 
     [Serialized]
     [LocDisplayName("Orrery")]
-    [LocDescription("An orrery is a mechanical model of the Solar System that shows the relative positions and motions of the planets and moons according to the heliocentric (Sun-centred) model.")]
+    [LocDescription("The Orrery is a mechanical model of the Solar System that shows the relative positions and motions of the planets and moons according to the heliocentric (Sun-centred) model.")]
     [Ecopedia("Housing Objects", "Outdoor", createAsSubPage: true)]
     [Tag("Housing")]
     [Weight(5000)]
@@ -208,8 +208,8 @@ namespace Eco.Mods.TechTree
     //Recipe
 
 
-    
-    [RequiresSkill(typeof(BasicEngineeringSkill), 6)]
+    [RequiresModule(typeof(ShaperObject))]
+    [RequiresSkill(typeof(MechanicsSkill), 4)]
     [Ecopedia("Housing Objects", "Outdoor", subPageName: "Orrery Item")]
     public partial class OrreryRecipe : RecipeFamily
     {
@@ -223,14 +223,15 @@ namespace Eco.Mods.TechTree
                 
                 ingredients: new List<IngredientElement>
                 {
-                    new IngredientElement(typeof(IronBarItem), 24, typeof(BasicEngineeringSkill), typeof(BasicEngineeringLavishResourcesTalent)),
-                    new IngredientElement(typeof(IronPipeItem), 30, typeof(BasicEngineeringSkill), typeof(BasicEngineeringLavishResourcesTalent)),
+                    new IngredientElement(typeof(IronBarItem), 24, typeof(MechanicsSkill), typeof(MechanicsLavishResourcesTalent)),
+                    new IngredientElement(typeof(IronPipeItem), 30, typeof(MechanicsSkill), typeof(MechanicsLavishResourcesTalent)),
                     new IngredientElement(typeof(IronGearItem), 42, true),
-                    new IngredientElement(typeof(LubricantItem), 2, typeof(BasicEngineeringSkill), typeof(BasicEngineeringLavishResourcesTalent)),
-                    new IngredientElement(typeof(ClayItem), 15, typeof(BasicEngineeringSkill), typeof(BasicEngineeringLavishResourcesTalent)),
+                    new IngredientElement(typeof(LubricantItem), 2, typeof(MechanicsSkill), typeof(MechanicsLavishResourcesTalent)),
+                    new IngredientElement(typeof(GlassItem), 15, typeof(MechanicsSkill), typeof(MechanicsLavishResourcesTalent)),
+                    new IngredientElement(typeof(OilPaintItem), 9, typeof(MechanicsSkill), typeof(MechanicsLavishResourcesTalent)),
                     new IngredientElement(typeof(LightBulbItem), 10, true),
-                    new IngredientElement(typeof(CopperWiringItem), 10, typeof(BasicEngineeringSkill), typeof(BasicEngineeringLavishResourcesTalent)),
-                    new IngredientElement(typeof(BasaltItem), 24, typeof(BasicEngineeringSkill), typeof(BasicEngineeringLavishResourcesTalent)),
+                    new IngredientElement(typeof(CopperWiringItem), 10, typeof(MechanicsSkill), typeof(MechanicsLavishResourcesTalent)),
+                    new IngredientElement(typeof(BasaltItem), 24, typeof(MechanicsSkill), typeof(MechanicsLavishResourcesTalent)),
                 },
 
                 
@@ -240,12 +241,12 @@ namespace Eco.Mods.TechTree
                 });
             this.Recipes = new List<Recipe> { recipe };
 
-            this.ExperienceOnCraft = 4; 
+            this.ExperienceOnCraft = 2; 
 
-            this.LaborInCalories = CreateLaborInCaloriesValue(900, typeof(BasicEngineeringSkill));
+            this.LaborInCalories = CreateLaborInCaloriesValue(900, typeof(MechanicsSkill));
 
             
-            this.CraftMinutes = CreateCraftTimeValue(beneficiary: typeof(OrreryRecipe), start: 10, skillType: typeof(BasicEngineeringSkill), typeof(BasicEngineeringFocusedSpeedTalent), typeof(BasicEngineeringParallelSpeedTalent));
+            this.CraftMinutes = CreateCraftTimeValue(beneficiary: typeof(OrreryRecipe), start: 10f, skillType: typeof(MechanicsSkill), typeof(MechanicsFocusedSpeedTalent), typeof(MechanicsParallelSpeedTalent));
 
            
             this.ModsPreInitialize();
@@ -253,7 +254,7 @@ namespace Eco.Mods.TechTree
             this.ModsPostInitialize();
 
             
-            CraftingComponent.AddRecipe(tableType: typeof(WainwrightTableObject), recipe: this);
+            CraftingComponent.AddRecipe(tableType: typeof(MachinistTableObject), recipe: this);
         }
 
         
