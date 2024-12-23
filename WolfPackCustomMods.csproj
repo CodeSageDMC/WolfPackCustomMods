@@ -83,6 +83,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Server\Mods\Optional\CombinedFarming\HempFiberFarming.cs" />
     <Compile Include="Server\Mods\UserCode\WolfPackCustomMods\Eco420\Cannabis\Cannabis.cs" />
     <Compile Include="Server\Mods\UserCode\WolfPackCustomMods\Eco420\Cannabis\CannabisBud.cs" />
     <Compile Include="Server\Mods\UserCode\WolfPackCustomMods\Eco420\Cannabis\CannabisCookingOil.cs" />
@@ -93,7 +94,7 @@
     <Compile Include="Server\Mods\UserCode\WolfPackCustomMods\Eco420\Cannabis\GroundCannabis.cs" />
     <Compile Include="Server\Mods\UserCode\WolfPackCustomMods\Eco420\Cannabis\HempCheesecloth.cs" />
     <Compile Include="Server\Mods\UserCode\WolfPackCustomMods\Eco420\Cannabis\HempFabric.cs" />
-    <Compile Include="Server\Mods\UserCode\WolfPackCustomMods\Eco420\Cannabis\HempFiber.cs" />
+    <Compile Include="Server\Mods\UserCode\WolfPackCustomMods\Eco420\Cannabis\HempFiberGathering.cs" />
     <Compile Include="Server\Mods\UserCode\WolfPackCustomMods\Eco420\Cannabis\HempYarn.cs" />
     <Compile Include="Server\Mods\UserCode\WolfPackCustomMods\Eco420\Cannabis\JarOfCuredCannabisBuds.cs" />
     <Compile Include="Server\Mods\UserCode\WolfPackCustomMods\Eco420\Cannabis\TrimmedCannabisBud.cs" />
