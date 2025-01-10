@@ -162,13 +162,17 @@ namespace Eco.Mods.TechTree
         [Interaction(InteractionTrigger.RightClick, "Light Switch", requiredEnvVars: new[] { ClientSideInteractionParameterNames.TargetingLightSwitch }, MinCaloriesRequired = 0, AccessForHighlight = AccessType.ConsumerAccess)]
         public void Toggle(Player player, InteractionTriggerInfo trigger, InteractionTarget target)
         {
-            
+            var isAuthorized = ServiceHolder<IAuthManager>.Obj.IsAuthorized(this, player.User);
             if (target.ContainsParameter("LightSwitch"))
-            {
-                this.onOffComponent.SwitchState(player);
-                
-                
-            }
+                if (isAuthorized)
+                {
+                this.onOffComponent.SwitchState(player);                                
+                }
+                else
+                {
+                    player.ErrorLocStr("You Are Not Authorized To Do That");
+                    return;
+                }
         }
         public override void Tick()
         {

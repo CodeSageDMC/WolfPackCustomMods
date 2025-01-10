@@ -203,8 +203,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="CombinedFarming_v1_1.zip" />
-    <None Include="CustomFoodOverhaul_Greenhouses_FarmingRevised.zip" />
-    <None Include="FarmingRevised_v1_0.zip" />
+    <None Include="CombinedFarming_CustomFoodOverhaul_Greenhouses.zip" />
     <None Include="Server\Mods\UserCode\WolfPackCustomMods\AdvancedPowerGeneration\AdvancedPowerGeneration.unity3d" />
     <None Include="Server\Mods\UserCode\WolfPackCustomMods\Eco420\Assets\Eco420.unity3d" />
     <None Include="Server\Mods\UserCode\WolfPackCustomMods\Orrery\Orrery.unity3d" />
@@ -858,11 +857,15 @@
     <None Include="Unity Assets\WolfPackCustomMods\TARDIS\yale lock material.mat.meta" />
     <None Include="Unity Assets\WolfPackCustomMods\TARDIS\Yale-1109-Rim-Cylinders.png.meta" />
     <None Include="WolfPackCustomMods-Eco420_v1.0.zip" />
+    <None Include="WolfPackCustomMods-Eco420_v1.1.zip" />
+    <None Include="WolfPackCustomMods-Eco420_v2.1.zip" />
+    <None Include="WolfPackCustomMods-Eco420_v2.2.zip" />
     <None Include="WolfPackCustomMods-Orrery_v1_0_0.zip" />
     <None Include="WolfPackCustomMods-Orrery_v1_0_1.zip" />
     <None Include="WolfPackCustomMods-Orrery_v1_0_2.zip" />
     <None Include="WolfPackCustomMods-Orrery_v1_0_3.zip" />
     <None Include="WolfPackCustomMods-Orrery_v2.0.zip" />
+    <None Include="WolfPackCustomMods-Orrery_v2.1.zip" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Server\Mods\UserCode\WolfPackCustomMods\WolfPackChefs\AdvancedBaking\" />

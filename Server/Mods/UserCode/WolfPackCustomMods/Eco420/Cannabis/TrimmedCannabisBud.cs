@@ -83,7 +83,7 @@ namespace Eco.Mods.TechTree
                     new CraftingElement<TrimmedCannabisBudItem>(42),
                     new CraftingElement<CannabisLeavesItem>(7),
                     new CraftingElement<ScissorsItem>(1),
-                    new CraftingElement<ClipItem>(1),
+                    
                 });
 
             this.Recipes = new List<Recipe> { recipe };

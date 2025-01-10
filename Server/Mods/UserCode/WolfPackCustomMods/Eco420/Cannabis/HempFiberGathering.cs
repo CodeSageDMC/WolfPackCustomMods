@@ -52,7 +52,7 @@ namespace Eco.Mods.TechTree
     //Recipe
 
 
-    [RequiresSkill(typeof(FarmingSkill), 2)]
+    [RequiresSkill(typeof(GatheringSkill), 2)]
     [Ecopedia("Items", "Products", subPageName: "Hemp Fiber Item")]
     public partial class HempFiberRecipe : RecipeFamily
     {
@@ -65,7 +65,7 @@ namespace Eco.Mods.TechTree
 
                 ingredients: new List<IngredientElement>
                 {
-                    new IngredientElement(typeof(CannabisLeavesItem), 3, typeof(FarmingSkill)),
+                    new IngredientElement(typeof(CannabisLeavesItem), 3, typeof(GatheringSkill)),
                 },
 
               
@@ -78,10 +78,10 @@ namespace Eco.Mods.TechTree
             this.ExperienceOnCraft = 0.2f; 
             
            
-            this.LaborInCalories = CreateLaborInCaloriesValue(35, typeof(FarmingSkill));
+            this.LaborInCalories = CreateLaborInCaloriesValue(35, typeof(GatheringSkill));
 
 
-            this.CraftMinutes = CreateCraftTimeValue(beneficiary: typeof(HempFiberRecipe), start: 1, skillType: typeof(FarmingSkill));
+            this.CraftMinutes = CreateCraftTimeValue(beneficiary: typeof(HempFiberRecipe), start: 1, skillType: typeof(GatheringSkill));
           
             this.ModsPreInitialize();
             this.Initialize(displayText: Localizer.DoStr("Hemp Fiber"), recipeType: typeof(HempFiberRecipe));
