@@ -55,7 +55,7 @@ namespace Eco.Mods.TechTree
     //Recipe 1
 
 
-    [RequiresSkill(typeof(SelfImprovementSkill), 2)]
+    
     public partial class MagicRecipe : RecipeFamily
     {
         public MagicRecipe()
@@ -68,12 +68,12 @@ namespace Eco.Mods.TechTree
 
                 ingredients: new List<IngredientElement>
                 {
-                    new IngredientElement("Food", 1, typeof(SelfImprovementSkill), typeof(SelfImprovementLavishResourcesTalent)),
+                    new IngredientElement("Food", 2, typeof(SelfImprovementSkill), typeof(SelfImprovementLavishResourcesTalent)),
                 },
 
                 items: new List<CraftingElement>
                 {
-                    new CraftingElement<MagicItem>(7)
+                    new CraftingElement<MagicItem>(5)
                 });
             this.Recipes = new List<Recipe> { recipe };
 
@@ -111,7 +111,7 @@ namespace Eco.Mods.TechTree
     //Recipe 2
 
 
-    [RequiresSkill(typeof(SelfImprovementSkill), 4)]
+    
     public partial class MagicExpandedRecipe : RecipeFamily
     {
         public MagicExpandedRecipe()
@@ -138,7 +138,7 @@ namespace Eco.Mods.TechTree
                 });
             this.Recipes = new List<Recipe> { recipe };
 
-
+            
 
             this.LaborInCalories = CreateLaborInCaloriesValue(420);
 

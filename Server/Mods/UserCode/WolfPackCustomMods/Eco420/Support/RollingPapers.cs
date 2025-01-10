@@ -40,7 +40,7 @@ namespace Eco.Mods.TechTree
 
 
     
-    [RequiresSkill(typeof(PaperMillingSkill), 4)]
+    [RequiresSkill(typeof(PaintingSkill), 4)]
     public partial class RollingPapersRecipe : RecipeFamily
     {
         public RollingPapersRecipe()
@@ -53,8 +53,8 @@ namespace Eco.Mods.TechTree
 
                 ingredients: new List<IngredientElement>
                 {
-                    new IngredientElement(typeof(CelluloseFiberItem), 15, typeof(PaperMillingSkill), typeof(PaperMillingLavishResourcesTalent)),
-                    new IngredientElement(typeof(WheatPasteGlueItem), 1, typeof(PaperMillingSkill), typeof(PaperMillingLavishResourcesTalent)),
+                    new IngredientElement(typeof(CelluloseFiberItem), 15, typeof(PaintingSkill), typeof(PaintingLavishResourcesTalent)),
+                    new IngredientElement(typeof(WheatPasteGlueItem), 1, typeof(PaintingSkill), typeof(PaintingLavishResourcesTalent)),
 
                 },
 
@@ -69,7 +69,7 @@ namespace Eco.Mods.TechTree
             this.LaborInCalories = CreateLaborInCaloriesValue(420);
 
             
-            this.CraftMinutes = CreateCraftTimeValue(beneficiary: typeof(RollingPapersRecipe), start: 3f, skillType: typeof(PaperMillingSkill), typeof(PaperMillingFocusedSpeedTalent), typeof(PaperMillingParallelSpeedTalent));
+            this.CraftMinutes = CreateCraftTimeValue(beneficiary: typeof(RollingPapersRecipe), start: 3f, skillType: typeof(PaintingSkill), typeof(PaintingFocusedSpeedTalent), typeof(PaintingParallelSpeedTalent));
 
             
             this.ModsPreInitialize();

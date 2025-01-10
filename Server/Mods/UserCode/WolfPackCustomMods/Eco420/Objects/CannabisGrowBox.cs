@@ -42,8 +42,6 @@ namespace Eco.Mods.TechTree
     using Eco.Core.Controller;
     using Eco.Core.Utils;
     using Eco.Gameplay.Components.Storage;
-
-
     using Eco.Gameplay.Items.Recipes;
     using System.Linq;
     using static Eco.Gameplay.Components.PartsComponent;
@@ -79,10 +77,10 @@ namespace Eco.Mods.TechTree
     [RepairRequiresSkill(typeof(CarpentrySkill), 2)]
     [RepairRequiresSkill(typeof(SelfImprovementSkill), 5)]
     [Tag("Usable")]
-    public partial class CannabisGrowBoxObject : WorldObject, IRepresentsItem, IHasInteractions
+    public partial class CannabisGrowBoxObject : WorldObject, IRepresentsItem
     {
 
-        private OnOffComponent onOffComponent;        
+           
         
         public virtual Type RepresentedItemType => typeof(CannabisGrowBoxItem);
         public override LocString DisplayName => Localizer.DoStr("Cannabis Grow-Box");
@@ -104,10 +102,9 @@ namespace Eco.Mods.TechTree
 
         protected override void Initialize()
         {
-            this.ModsPreInitialize();
-            onOffComponent = this.GetComponent<OnOffComponent>();
+            this.ModsPreInitialize();            
             this.GetComponent<PowerGridComponent>().Initialize(10, new ElectricPower());
-            this.GetComponent<PowerConsumptionComponent>();
+            this.GetComponent<PowerConsumptionComponent>().Initialize(200);
             this.GetComponent<LinkComponent>().Initialize(15);
            
 
@@ -126,29 +123,7 @@ namespace Eco.Mods.TechTree
         }
 
        
-        [Interaction(InteractionTrigger.RightClick, "Light Switch", MinCaloriesRequired = 0)]
-        public void Toggle(Player player, InteractionTriggerInfo trigger, InteractionTarget target)
-        {
-            
-            if (target.ContainsParameter("LightSwitch"))
-            {
-                this.onOffComponent.SwitchState(player);
-                
-            }
-        }
-
-        public override void Tick()
-        {
-            base.Tick();
-
-            float power = 0f;
-            if (this.onOffComponent.On)
-
-                power += 200f;
-
-            this.GetComponent<PowerConsumptionComponent>().Initialize(power);
-
-        }
+       
 
         partial void ModsPreInitialize();
 
@@ -174,7 +149,7 @@ namespace Eco.Mods.TechTree
     [AllowPluginModules(Tags = new[] { "BasicUpgrade" }, ItemTypes = new[] { typeof(SurvivalistUpgradeItem), typeof(FarmingUpgradeItem)})]//noloc
     public partial class CannabisGrowBoxItem : WorldObjectItem<CannabisGrowBoxObject>, IPersistentData
     {
-        protected override OccupancyContext GetOccupancyContext => new SideAttachedContext(0 | DirectionAxisFlags.Down, WorldObject.GetOccupancyInfo(this.WorldObjectType));
+        protected override OccupancyContext GetOccupancyContext => new SideAttachedContext(DirectionAxisFlags.Down, WorldObject.GetOccupancyInfo(this.WorldObjectType));
 
 
 

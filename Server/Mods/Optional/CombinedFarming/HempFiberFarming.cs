@@ -65,7 +65,7 @@ namespace Eco.Mods.TechTree
 
                 ingredients: new List<IngredientElement>
                 {
-                    new IngredientElement(typeof(CannabisLeavesItem), 3, typeof(FarmingSkill)),
+                    new IngredientElement(typeof(CannabisLeavesItem), 3, typeof(FarmingSkill), typeof(FarmingLavishResourcesTalent)),
                 },
 
               
@@ -81,7 +81,7 @@ namespace Eco.Mods.TechTree
             this.LaborInCalories = CreateLaborInCaloriesValue(35, typeof(FarmingSkill));
 
 
-            this.CraftMinutes = CreateCraftTimeValue(beneficiary: typeof(HempFiberRecipe), start: 1, skillType: typeof(FarmingSkill));
+            this.CraftMinutes = CreateCraftTimeValue(beneficiary: typeof(HempFiberRecipe), start: 1, skillType: typeof(FarmingSkill), typeof(FarmingFocusedSpeedTalent), typeof(FarmingParallelSpeedTalent));
           
             this.ModsPreInitialize();
             this.Initialize(displayText: Localizer.DoStr("Hemp Fiber"), recipeType: typeof(HempFiberRecipe));

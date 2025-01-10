@@ -39,8 +39,8 @@ namespace Eco.Mods.TechTree
     //Recipe
 
 
-    [RequiresModule(typeof(CarpentryTableObject))]
-    [RequiresSkill(typeof(LoggingSkill), 5)]
+    
+    [RequiresSkill(typeof(LoggingSkill), 4)]
     public partial class MatchesRecipe : RecipeFamily
     {
         public MatchesRecipe()
@@ -79,7 +79,7 @@ namespace Eco.Mods.TechTree
             this.ModsPostInitialize();
 
 
-            CraftingComponent.AddRecipe(tableType: typeof(SawmillObject), recipe: this);
+            CraftingComponent.AddRecipe(tableType: typeof(CarpentryTableObject), recipe: this);
         }
 
         partial void ModsPreInitialize();

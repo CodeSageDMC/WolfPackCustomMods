@@ -42,8 +42,6 @@ namespace Eco.Mods.TechTree
     using Eco.Core.Controller;
     using Eco.Core.Utils;
     using Eco.Gameplay.Components.Storage;
-
-
     using Eco.Gameplay.Items.Recipes;
     using System.Linq;
     using static Eco.Gameplay.Components.PartsComponent;
@@ -54,9 +52,18 @@ namespace Eco.Mods.TechTree
     using Eco.Gameplay.Components.Store;
     using Eco.Gameplay.Systems.EnvVars;
     using Eco.Gameplay.Wires;
+    using Eco.Gameplay.Aliases;
+    using Eco.Shared.Time;
 
 
+    //Client-Side Interaction Parameter Names
 
+    public partial class ClientSideInteractionParameterNames
+    {
+        //--------------CLIENT-ONLY KEYS-------------------  These can be used on the InteractionDefinitions defined on the server.
+        public const string TargetingLightSwitch = "LightSwitch";
+
+    }
 
 
     //Object
@@ -70,6 +77,7 @@ namespace Eco.Mods.TechTree
     [RequireComponent(typeof(PowerConsumptionComponent))]
     [RequireComponent(typeof(CraftingComponent))]
     [RequireComponent(typeof(PartsComponent))]
+    [RequireComponent(typeof(MountComponent))]
     [RequireComponent(typeof(OccupancyRequirementComponent))]
     [RequireComponent(typeof(PluginModulesComponent))]
     [RequireComponent(typeof(PublicStorageComponent))]
@@ -83,7 +91,10 @@ namespace Eco.Mods.TechTree
     [Tag("Usable")]
     public partial class CannabisWorkbenchObject : WorldObject, IRepresentsItem, IHasInteractions
     {        
-        private OnOffComponent onOffComponent;   
+        private OnOffComponent onOffComponent;
+        private PowerGridComponent powerGridComponent;
+     
+
 
         public virtual Type RepresentedItemType => typeof(CannabisWorkbenchItem);
         public override LocString DisplayName => Localizer.DoStr("Cannabis Workbench");
@@ -115,12 +126,16 @@ namespace Eco.Mods.TechTree
             new BlockOccupancy(new Vector3i(-1, 2, 1)),
             });
         }              
-
+        
         protected override void Initialize()
         {
+
+            
             this.ModsPreInitialize();
             onOffComponent = this.GetComponent<OnOffComponent>();
-            this.GetComponent<PowerGridComponent>().Initialize(10, new ElectricPower());
+            this.GetComponent<MountComponent>().Initialize(1);
+            this.GetComponent<PowerGridComponent>().Initialize(10, new ElectricPower(), 1, true);
+            this.powerGridComponent = this.GetComponent<PowerGridComponent>();  
             this.GetComponent<PowerConsumptionComponent>();
             this.GetComponent<LinkComponent>().Initialize(15);
             PublicStorageComponent component = base.GetComponent<PublicStorageComponent>(null);            
@@ -142,8 +157,9 @@ namespace Eco.Mods.TechTree
 
         }     
 
+
        
-        [Interaction(InteractionTrigger.RightClick, "Light Switch", MinCaloriesRequired = 0)]
+        [Interaction(InteractionTrigger.RightClick, "Light Switch", requiredEnvVars: new[] { ClientSideInteractionParameterNames.TargetingLightSwitch }, MinCaloriesRequired = 0, AccessForHighlight = AccessType.ConsumerAccess)]
         public void Toggle(Player player, InteractionTriggerInfo trigger, InteractionTarget target)
         {
             
@@ -157,13 +173,18 @@ namespace Eco.Mods.TechTree
         public override void Tick()
         {
             base.Tick();
-
+            
             float power = 0f;
-            if (this.onOffComponent.On)
+            if (this.onOffComponent.Enabled)
 
                 power += 60f;
 
             this.GetComponent<PowerConsumptionComponent>().Initialize(power);
+
+            
+
+            
+
 
         }
 
@@ -192,7 +213,7 @@ namespace Eco.Mods.TechTree
     [AllowPluginModules(Tags = new[] { "BasicUpgrade" }, ItemTypes = new[] { typeof(SurvivalistUpgradeItem) })]//noloc
     public partial class CannabisWorkbenchItem : WorldObjectItem<CannabisWorkbenchObject>, IPersistentData
     {
-        protected override OccupancyContext GetOccupancyContext => new SideAttachedContext(0 | DirectionAxisFlags.Down, WorldObject.GetOccupancyInfo(this.WorldObjectType));
+        protected override OccupancyContext GetOccupancyContext => new SideAttachedContext(DirectionAxisFlags.Down, WorldObject.GetOccupancyInfo(this.WorldObjectType));
 
 
 
