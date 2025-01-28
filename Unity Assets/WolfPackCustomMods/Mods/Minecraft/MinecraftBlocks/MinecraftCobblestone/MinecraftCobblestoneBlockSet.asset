@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bad84a2cfb63014f88243989c9d3ef2, type: 3}
+  m_Name: MinecraftCobblestoneBlockSet
+  m_EditorClassIdentifier: 
+  Blocks:
+  - Name: MinecraftCobblestone
+    Builder: {fileID: 11400000, guid: 849d1fcd049067a4cb4aabb0bcc4693f, type: 2}
+    Material: {fileID: 2100000, guid: 14034f169eba9e346830f7c98d2ad9d0, type: 2}
+    LODTexture: {fileID: 0}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 0, g: 1, b: 0, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 0
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Terrain
+    Tier: 0
+    BlendingPriority: 90
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Stone
+    MusicCategory: PlayerBlock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: MinecraftCobblestoneStacked1
+    Builder: {fileID: 11400000, guid: 817b7c0c47aa1ae4fb7563a4cbbdac44, type: 2}
+    Material: {fileID: 2100000, guid: 14034f169eba9e346830f7c98d2ad9d0, type: 2}
+    LODTexture: {fileID: 0}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 0, g: 1, b: 0, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: 
+    MusicCategory: 
+    Effects:
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}

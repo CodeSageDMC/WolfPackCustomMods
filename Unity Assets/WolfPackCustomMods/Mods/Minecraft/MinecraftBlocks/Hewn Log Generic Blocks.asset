@@ -1,0 +1,5267 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bad84a2cfb63014f88243989c9d3ef2, type: 3}
+  m_Name: Hewn Log Generic Blocks
+  m_EditorClassIdentifier: 
+  Blocks:
+  - Name: HewnLogStairs
+    Builder: {fileID: 11400000, guid: 703fc0d37a683e74181e6ead689e5cb8, type: 2}
+    Material: {fileID: 2100000, guid: 7cba73bc490e56b44b131bdd521d0bc1, type: 2}
+    LODTexture: {fileID: 2800000, guid: 532326c489fb47248ad4629aadb0ca67, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 1, g: 0.8470589, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: PlayerBlock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: HewnLogStairs90
+    Builder: {fileID: 11400000, guid: 182af5f5f7e77ad4fb3150e98011a91c, type: 2}
+    Material: {fileID: 2100000, guid: 7cba73bc490e56b44b131bdd521d0bc1, type: 2}
+    LODTexture: {fileID: 2800000, guid: 532326c489fb47248ad4629aadb0ca67, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: PlayerBlock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: HewnLogStairs180
+    Builder: {fileID: 11400000, guid: c67eb85ec079131468b35ed4c730b20d, type: 2}
+    Material: {fileID: 2100000, guid: 7cba73bc490e56b44b131bdd521d0bc1, type: 2}
+    LODTexture: {fileID: 2800000, guid: 532326c489fb47248ad4629aadb0ca67, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: PlayerBlock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: HewnLogStairs270
+    Builder: {fileID: 11400000, guid: 6d61cdd7cb2085e4ba7ee2f1fb339ced, type: 2}
+    Material: {fileID: 2100000, guid: 7cba73bc490e56b44b131bdd521d0bc1, type: 2}
+    LODTexture: {fileID: 2800000, guid: 532326c489fb47248ad4629aadb0ca67, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: PlayerBlock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: HewnLogWall
+    Builder: {fileID: 11400000, guid: 0411469eb803af5478d09787b0c78793, type: 2}
+    Material: {fileID: 2100000, guid: a0ddaafa09154cc46b525564d1141a27, type: 2}
+    LODTexture: {fileID: 2800000, guid: 532326c489fb47248ad4629aadb0ca67, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Building
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: PlayerBlock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1833362825397382, guid: 5b4477d311dc46b4ea76ef4649169315, type: 3}
+    - {fileID: 1767679803757342, guid: 17969030687c4984ab9970d0511ec7a1, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: HewnLogFloor
+    Builder: {fileID: 11400000, guid: e145365108766f5499788aadaa509d58, type: 2}
+    Material: {fileID: 2100000, guid: 7cba73bc490e56b44b131bdd521d0bc1, type: 2}
+    LODTexture: {fileID: 2800000, guid: 532326c489fb47248ad4629aadb0ca67, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 0
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Terrain
+    Tier: 0
+    BlendingPriority: 90
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: PlayerBlock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1833362825397382, guid: 5b4477d311dc46b4ea76ef4649169315, type: 3}
+    - {fileID: 1767679803757342, guid: 17969030687c4984ab9970d0511ec7a1, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: HewnLogColumn
+    Builder: {fileID: 11400000, guid: 3e52af7e078a10b4d95a790405443a39, type: 2}
+    Material: {fileID: 2100000, guid: a0ddaafa09154cc46b525564d1141a27, type: 2}
+    LODTexture: {fileID: 2800000, guid: 532326c489fb47248ad4629aadb0ca67, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: PlayerBlock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1833362825397382, guid: 5b4477d311dc46b4ea76ef4649169315, type: 3}
+    - {fileID: 1767679803757342, guid: 17969030687c4984ab9970d0511ec7a1, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: HewnLogRoof
+    Builder: {fileID: 11400000, guid: 85ddd81ba80f37746b6e0fed1ab9b481, type: 2}
+    Material: {fileID: 2100000, guid: 96d5059520b10a844b3e49066eb964bc, type: 2}
+    LODTexture: {fileID: 2800000, guid: 532326c489fb47248ad4629aadb0ca67, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Roof
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: PlayerBlock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1833362825397382, guid: 5b4477d311dc46b4ea76ef4649169315, type: 3}
+    - {fileID: 1767679803757342, guid: 17969030687c4984ab9970d0511ec7a1, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: HewnLogStacked1
+    Builder: {fileID: 11400000, guid: 337c736ba7b24af4bb9f97cd7c56b022, type: 2}
+    Material: {fileID: 2100000, guid: a0ddaafa09154cc46b525564d1141a27, type: 2}
+    LODTexture: {fileID: 2800000, guid: 532326c489fb47248ad4629aadb0ca67, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: PlayerBlock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1833362825397382, guid: 5b4477d311dc46b4ea76ef4649169315, type: 3}
+    - {fileID: 1767679803757342, guid: 17969030687c4984ab9970d0511ec7a1, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: HewnLogStacked2
+    Builder: {fileID: 11400000, guid: 5ffccf07a87be7d4898f8526bbc7c88e, type: 2}
+    Material: {fileID: 2100000, guid: a0ddaafa09154cc46b525564d1141a27, type: 2}
+    LODTexture: {fileID: 2800000, guid: 532326c489fb47248ad4629aadb0ca67, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: PlayerBlock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1833362825397382, guid: 5b4477d311dc46b4ea76ef4649169315, type: 3}
+    - {fileID: 1767679803757342, guid: 17969030687c4984ab9970d0511ec7a1, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: HewnLogStacked3
+    Builder: {fileID: 11400000, guid: 6123e69301b6e8a4cb7d8c03709655c0, type: 2}
+    Material: {fileID: 2100000, guid: a0ddaafa09154cc46b525564d1141a27, type: 2}
+    LODTexture: {fileID: 2800000, guid: 532326c489fb47248ad4629aadb0ca67, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: PlayerBlock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1833362825397382, guid: 5b4477d311dc46b4ea76ef4649169315, type: 3}
+    - {fileID: 1767679803757342, guid: 17969030687c4984ab9970d0511ec7a1, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: HewnLogWindowGrilles
+    Builder: {fileID: 11400000, guid: 00ff25b4ccd9a5a4ba62311fb578ea2f, type: 2}
+    Material: {fileID: 2100000, guid: 7cba73bc490e56b44b131bdd521d0bc1, type: 2}
+    LODTexture: {fileID: 2800000, guid: 532326c489fb47248ad4629aadb0ca67, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials:
+    - {fileID: 2100000, guid: 70fb4b6b44d822d43a1da5e72b4f83d9, type: 2}
+    OverrideSubMaterialsTransparency: 00
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Building
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: PlayerBlock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1833362825397382, guid: 5b4477d311dc46b4ea76ef4649169315, type: 3}
+    - {fileID: 1767679803757342, guid: 17969030687c4984ab9970d0511ec7a1, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: HewnLogCube
+    Builder: {fileID: 11400000, guid: b0ed81973f33ab5458a56d6b84fcf740, type: 2}
+    Material: {fileID: 2100000, guid: a0ddaafa09154cc46b525564d1141a27, type: 2}
+    LODTexture: {fileID: 2800000, guid: 532326c489fb47248ad4629aadb0ca67, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 0
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Terrain
+    Tier: 0
+    BlendingPriority: 90
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: PlayerBlock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1833362825397382, guid: 5b4477d311dc46b4ea76ef4649169315, type: 3}
+    - {fileID: 1767679803757342, guid: 17969030687c4984ab9970d0511ec7a1, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: HewnLogSlope
+    Builder: {fileID: 11400000, guid: 9f3ea56d489d34d4bac6a1c72d8c3bfa, type: 2}
+    Material: {fileID: 2100000, guid: a0ddaafa09154cc46b525564d1141a27, type: 2}
+    LODTexture: {fileID: 2800000, guid: 532326c489fb47248ad4629aadb0ca67, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 0
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Roof
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: PlayerBlock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1833362825397382, guid: 5b4477d311dc46b4ea76ef4649169315, type: 3}
+    - {fileID: 1767679803757342, guid: 17969030687c4984ab9970d0511ec7a1, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: HewnLogLadder
+    Builder: {fileID: 11400000, guid: 7f70bb2006025d24fb4cbaf916d518e6, type: 2}
+    Material: {fileID: 2100000, guid: 8684bf4b83c1815489c74907f0b28c7a, type: 2}
+    LODTexture: {fileID: 2800000, guid: 532326c489fb47248ad4629aadb0ca67, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: PlayerBlock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1833362825397382, guid: 5b4477d311dc46b4ea76ef4649169315, type: 3}
+    - {fileID: 1767679803757342, guid: 17969030687c4984ab9970d0511ec7a1, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 1
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: HewnLogLadder90
+    Builder: {fileID: 11400000, guid: 314c01c4307c8a74eb9d028b7a5ae409, type: 2}
+    Material: {fileID: 2100000, guid: 8684bf4b83c1815489c74907f0b28c7a, type: 2}
+    LODTexture: {fileID: 2800000, guid: 532326c489fb47248ad4629aadb0ca67, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: PlayerBlock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1833362825397382, guid: 5b4477d311dc46b4ea76ef4649169315, type: 3}
+    - {fileID: 1767679803757342, guid: 17969030687c4984ab9970d0511ec7a1, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 1
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: HewnLogLadder180
+    Builder: {fileID: 11400000, guid: 3bb6bd09ce809a04b8434fb91d6eb67d, type: 2}
+    Material: {fileID: 2100000, guid: 8684bf4b83c1815489c74907f0b28c7a, type: 2}
+    LODTexture: {fileID: 2800000, guid: 532326c489fb47248ad4629aadb0ca67, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: PlayerBlock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1833362825397382, guid: 5b4477d311dc46b4ea76ef4649169315, type: 3}
+    - {fileID: 1767679803757342, guid: 17969030687c4984ab9970d0511ec7a1, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 1
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: HewnLogLadder270
+    Builder: {fileID: 11400000, guid: 9be955e40f6e10f4a9417aa63ea632fb, type: 2}
+    Material: {fileID: 2100000, guid: 8684bf4b83c1815489c74907f0b28c7a, type: 2}
+    LODTexture: {fileID: 2800000, guid: 532326c489fb47248ad4629aadb0ca67, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: PlayerBlock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1833362825397382, guid: 5b4477d311dc46b4ea76ef4649169315, type: 3}
+    - {fileID: 1767679803757342, guid: 17969030687c4984ab9970d0511ec7a1, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 1
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: HewnLogRoofPeakSet
+    Builder: {fileID: 11400000, guid: f19356e6f2b80e2459a1ee43c5bae13f, type: 2}
+    Material: {fileID: 2100000, guid: 96d5059520b10a844b3e49066eb964bc, type: 2}
+    LODTexture: {fileID: 2800000, guid: 532326c489fb47248ad4629aadb0ca67, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: PlayerBlock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: HewnLogRoofSide
+    Builder: {fileID: 11400000, guid: 4795c23cdb4519549a40fcd487fdf4d4, type: 2}
+    Material: {fileID: 2100000, guid: 96d5059520b10a844b3e49066eb964bc, type: 2}
+    LODTexture: {fileID: 2800000, guid: 532326c489fb47248ad4629aadb0ca67, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: PlayerBlock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: HewnLogRoofSide90
+    Builder: {fileID: 11400000, guid: eb1fe2efa9994a9429155d48364e18f0, type: 2}
+    Material: {fileID: 2100000, guid: 96d5059520b10a844b3e49066eb964bc, type: 2}
+    LODTexture: {fileID: 2800000, guid: 532326c489fb47248ad4629aadb0ca67, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: PlayerBlock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: HewnLogRoofSide180
+    Builder: {fileID: 11400000, guid: 1dd09b9d0adeb1b4e9a0fca50c3d97c5, type: 2}
+    Material: {fileID: 2100000, guid: 96d5059520b10a844b3e49066eb964bc, type: 2}
+    LODTexture: {fileID: 2800000, guid: 532326c489fb47248ad4629aadb0ca67, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: PlayerBlock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: HewnLogRoofSide270
+    Builder: {fileID: 11400000, guid: 94a466464a38caf4d90bc9cff789ad74, type: 2}
+    Material: {fileID: 2100000, guid: 96d5059520b10a844b3e49066eb964bc, type: 2}
+    LODTexture: {fileID: 2800000, guid: 532326c489fb47248ad4629aadb0ca67, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: PlayerBlock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: HewnLogRoofTurn
+    Builder: {fileID: 11400000, guid: 92742652154463647809c4d170712929, type: 2}
+    Material: {fileID: 2100000, guid: 96d5059520b10a844b3e49066eb964bc, type: 2}
+    LODTexture: {fileID: 2800000, guid: 532326c489fb47248ad4629aadb0ca67, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: PlayerBlock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: HewnLogRoofTurn90
+    Builder: {fileID: 11400000, guid: 92cedfa0537142f4c89377df49139a2d, type: 2}
+    Material: {fileID: 2100000, guid: 96d5059520b10a844b3e49066eb964bc, type: 2}
+    LODTexture: {fileID: 2800000, guid: 532326c489fb47248ad4629aadb0ca67, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: PlayerBlock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: HewnLogRoofTurn180
+    Builder: {fileID: 11400000, guid: 375e92df72e0daa4284db19c5abb897a, type: 2}
+    Material: {fileID: 2100000, guid: 96d5059520b10a844b3e49066eb964bc, type: 2}
+    LODTexture: {fileID: 2800000, guid: 532326c489fb47248ad4629aadb0ca67, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: PlayerBlock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: HewnLogRoofTurn270
+    Builder: {fileID: 11400000, guid: c81ea4c7554e23444ad25a47571e641a, type: 2}
+    Material: {fileID: 2100000, guid: 96d5059520b10a844b3e49066eb964bc, type: 2}
+    LODTexture: {fileID: 2800000, guid: 532326c489fb47248ad4629aadb0ca67, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: PlayerBlock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: HewnLogRoofCorner
+    Builder: {fileID: 11400000, guid: aef921f877cb92840876c98680f47949, type: 2}
+    Material: {fileID: 2100000, guid: 96d5059520b10a844b3e49066eb964bc, type: 2}
+    LODTexture: {fileID: 2800000, guid: 532326c489fb47248ad4629aadb0ca67, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: PlayerBlock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: HewnLogRoofCorner90
+    Builder: {fileID: 11400000, guid: ec98d101915260542b50c9b258fd9bc8, type: 2}
+    Material: {fileID: 2100000, guid: 96d5059520b10a844b3e49066eb964bc, type: 2}
+    LODTexture: {fileID: 2800000, guid: 532326c489fb47248ad4629aadb0ca67, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: PlayerBlock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: HewnLogRoofCorner180
+    Builder: {fileID: 11400000, guid: 69bb756c7a655c54d80f0bd2c222e364, type: 2}
+    Material: {fileID: 2100000, guid: 96d5059520b10a844b3e49066eb964bc, type: 2}
+    LODTexture: {fileID: 2800000, guid: 532326c489fb47248ad4629aadb0ca67, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: PlayerBlock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: HewnLogRoofCorner270
+    Builder: {fileID: 11400000, guid: 80d1077ec6f70134e80376036e9ed63a, type: 2}
+    Material: {fileID: 2100000, guid: 96d5059520b10a844b3e49066eb964bc, type: 2}
+    LODTexture: {fileID: 2800000, guid: 532326c489fb47248ad4629aadb0ca67, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: PlayerBlock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: HewnLogRoofPeak
+    Builder: {fileID: 11400000, guid: 4a3533b39404ab146b6ae7bf0a02e23d, type: 2}
+    Material: {fileID: 2100000, guid: 96d5059520b10a844b3e49066eb964bc, type: 2}
+    LODTexture: {fileID: 2800000, guid: 532326c489fb47248ad4629aadb0ca67, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: PlayerBlock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: HewnLogRoofPeak90
+    Builder: {fileID: 11400000, guid: 0be5ed39638591c499c8e7a09aa53218, type: 2}
+    Material: {fileID: 2100000, guid: 96d5059520b10a844b3e49066eb964bc, type: 2}
+    LODTexture: {fileID: 2800000, guid: 532326c489fb47248ad4629aadb0ca67, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: PlayerBlock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: HewnLogRoofPeak180
+    Builder: {fileID: 11400000, guid: 71f71456d5fb3294493aeed1bfdaad2d, type: 2}
+    Material: {fileID: 2100000, guid: 96d5059520b10a844b3e49066eb964bc, type: 2}
+    LODTexture: {fileID: 2800000, guid: 532326c489fb47248ad4629aadb0ca67, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: PlayerBlock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: HewnLogRoofPeak270
+    Builder: {fileID: 11400000, guid: 5e5bcb496df5ffd47b8b7ac759136686, type: 2}
+    Material: {fileID: 2100000, guid: 96d5059520b10a844b3e49066eb964bc, type: 2}
+    LODTexture: {fileID: 2800000, guid: 532326c489fb47248ad4629aadb0ca67, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: PlayerBlock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: HewnLogRoofCube
+    Builder: {fileID: 11400000, guid: 157178b39eacce54f9283ab6a86188ae, type: 2}
+    Material: {fileID: 2100000, guid: 96d5059520b10a844b3e49066eb964bc, type: 2}
+    LODTexture: {fileID: 2800000, guid: 532326c489fb47248ad4629aadb0ca67, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 0
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Terrain
+    Tier: 0
+    BlendingPriority: 90
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: PlayerBlock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: HewnLogDocksPlatform
+    Builder: {fileID: 11400000, guid: c75a9517924c02e4fb70dc50776ad5af, type: 2}
+    Material: {fileID: 2100000, guid: f9d0246554e304b4db029725bbc1449f, type: 2}
+    LODTexture: {fileID: 2800000, guid: 202d0fb4c30ecb3438875dc6d4c5abc0, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials:
+    - {fileID: 2100000, guid: e806347bfe9d1b7458c494d87df2dbf4, type: 2}
+    - {fileID: 2100000, guid: 27c91a5c4f113534ea1feecb54495b90, type: 2}
+    OverrideSubMaterialsTransparency: 0000
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: DocksPlatform1
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: PlayerBlock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: HewnLogDocksPlatform90
+    Builder: {fileID: 11400000, guid: ccb074dc197177b4191f8c08201e2cca, type: 2}
+    Material: {fileID: 2100000, guid: 69d0ba223340ea646a91b9119fb55aa3, type: 2}
+    LODTexture: {fileID: 2800000, guid: 202d0fb4c30ecb3438875dc6d4c5abc0, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials:
+    - {fileID: 2100000, guid: 6e5cdd861d8113f4e80ce79d8d42bcfc, type: 2}
+    - {fileID: 2100000, guid: 27c91a5c4f113534ea1feecb54495b90, type: 2}
+    OverrideSubMaterialsTransparency: 0000
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: DocksPlatform2
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: PlayerBlock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: HewnLogDocksPlatform180
+    Builder: {fileID: 11400000, guid: 2891b0c5a9fbcf74f8c19ae66258524c, type: 2}
+    Material: {fileID: 2100000, guid: f9d0246554e304b4db029725bbc1449f, type: 2}
+    LODTexture: {fileID: 2800000, guid: 202d0fb4c30ecb3438875dc6d4c5abc0, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials:
+    - {fileID: 2100000, guid: e806347bfe9d1b7458c494d87df2dbf4, type: 2}
+    - {fileID: 2100000, guid: 27c91a5c4f113534ea1feecb54495b90, type: 2}
+    OverrideSubMaterialsTransparency: 0000
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: DocksPlatform1
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: PlayerBlock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: HewnLogDocksPlatform270
+    Builder: {fileID: 11400000, guid: 87dfd470742bdd8459c11ed82e83ac2a, type: 2}
+    Material: {fileID: 2100000, guid: 69d0ba223340ea646a91b9119fb55aa3, type: 2}
+    LODTexture: {fileID: 2800000, guid: 202d0fb4c30ecb3438875dc6d4c5abc0, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials:
+    - {fileID: 2100000, guid: 6e5cdd861d8113f4e80ce79d8d42bcfc, type: 2}
+    - {fileID: 2100000, guid: 27c91a5c4f113534ea1feecb54495b90, type: 2}
+    OverrideSubMaterialsTransparency: 0000
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: DocksPlatform2
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: PlayerBlock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: HewnLogDocksPlatformFill
+    Builder: {fileID: 11400000, guid: 9641f4dcee20708429060bc747942007, type: 2}
+    Material: {fileID: 2100000, guid: f9d0246554e304b4db029725bbc1449f, type: 2}
+    LODTexture: {fileID: 2800000, guid: 202d0fb4c30ecb3438875dc6d4c5abc0, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials:
+    - {fileID: 2100000, guid: e806347bfe9d1b7458c494d87df2dbf4, type: 2}
+    OverrideSubMaterialsTransparency: 00
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: PlayerBlock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: HewnLogDocksPlatformFill90
+    Builder: {fileID: 11400000, guid: 411c9a663917f4b4bb7b9e0565691905, type: 2}
+    Material: {fileID: 2100000, guid: 69d0ba223340ea646a91b9119fb55aa3, type: 2}
+    LODTexture: {fileID: 2800000, guid: 202d0fb4c30ecb3438875dc6d4c5abc0, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials:
+    - {fileID: 2100000, guid: 6e5cdd861d8113f4e80ce79d8d42bcfc, type: 2}
+    OverrideSubMaterialsTransparency: 00
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: PlayerBlock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: HewnLogDocksPlatformFill180
+    Builder: {fileID: 11400000, guid: bb16d379d0296894cbbe6c8e4ec8bb38, type: 2}
+    Material: {fileID: 2100000, guid: f9d0246554e304b4db029725bbc1449f, type: 2}
+    LODTexture: {fileID: 2800000, guid: 202d0fb4c30ecb3438875dc6d4c5abc0, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials:
+    - {fileID: 2100000, guid: e806347bfe9d1b7458c494d87df2dbf4, type: 2}
+    OverrideSubMaterialsTransparency: 00
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: PlayerBlock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: HewnLogDocksPlatformFill270
+    Builder: {fileID: 11400000, guid: f9fd1c987031b4c4e8753b074416f183, type: 2}
+    Material: {fileID: 2100000, guid: 69d0ba223340ea646a91b9119fb55aa3, type: 2}
+    LODTexture: {fileID: 2800000, guid: 202d0fb4c30ecb3438875dc6d4c5abc0, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials:
+    - {fileID: 2100000, guid: 6e5cdd861d8113f4e80ce79d8d42bcfc, type: 2}
+    OverrideSubMaterialsTransparency: 00
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: PlayerBlock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: HewnLogDocksColumn
+    Builder: {fileID: 11400000, guid: 6185960a94e9f384f86999d9d1cf5e60, type: 2}
+    Material: {fileID: 2100000, guid: 27c91a5c4f113534ea1feecb54495b90, type: 2}
+    LODTexture: {fileID: 2800000, guid: 202d0fb4c30ecb3438875dc6d4c5abc0, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: HewnLogDocksColumn
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: PlayerBlock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: HewnLogDocksPillar
+    Builder: {fileID: 11400000, guid: 31cdad4b64599db4a840e75e4c9f4f6c, type: 2}
+    Material: {fileID: 2100000, guid: 27c91a5c4f113534ea1feecb54495b90, type: 2}
+    LODTexture: {fileID: 2800000, guid: 202d0fb4c30ecb3438875dc6d4c5abc0, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: PlayerBlock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: HewnLogDocksPillar90
+    Builder: {fileID: 11400000, guid: 96992b33819f6504f8e9530088fd9469, type: 2}
+    Material: {fileID: 2100000, guid: 27c91a5c4f113534ea1feecb54495b90, type: 2}
+    LODTexture: {fileID: 2800000, guid: 202d0fb4c30ecb3438875dc6d4c5abc0, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: PlayerBlock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: HewnLogDocksPillar180
+    Builder: {fileID: 11400000, guid: 1a9e43b445620074ca31dcb2f25bd38e, type: 2}
+    Material: {fileID: 2100000, guid: 27c91a5c4f113534ea1feecb54495b90, type: 2}
+    LODTexture: {fileID: 2800000, guid: 202d0fb4c30ecb3438875dc6d4c5abc0, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: PlayerBlock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: HewnLogDocksPillar270
+    Builder: {fileID: 11400000, guid: d5b553acb1ac7154f90491c3659a50f8, type: 2}
+    Material: {fileID: 2100000, guid: 27c91a5c4f113534ea1feecb54495b90, type: 2}
+    LODTexture: {fileID: 2800000, guid: 202d0fb4c30ecb3438875dc6d4c5abc0, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: PlayerBlock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: HewnLogDocksPillarBeamEnd
+    Builder: {fileID: 11400000, guid: f714215d43864e24d8b1ba76a9fffb23, type: 2}
+    Material: {fileID: 2100000, guid: e806347bfe9d1b7458c494d87df2dbf4, type: 2}
+    LODTexture: {fileID: 2800000, guid: 202d0fb4c30ecb3438875dc6d4c5abc0, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: PlayerBlock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: HewnLogDocksPillarBeamEnd90
+    Builder: {fileID: 11400000, guid: 9be94e91a4b0ce246ac101ad378e4f74, type: 2}
+    Material: {fileID: 2100000, guid: 6e5cdd861d8113f4e80ce79d8d42bcfc, type: 2}
+    LODTexture: {fileID: 2800000, guid: 202d0fb4c30ecb3438875dc6d4c5abc0, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: PlayerBlock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: HewnLogDocksPillarBeamEnd180
+    Builder: {fileID: 11400000, guid: b1d0efb06548ccf49ad539d016aed158, type: 2}
+    Material: {fileID: 2100000, guid: e806347bfe9d1b7458c494d87df2dbf4, type: 2}
+    LODTexture: {fileID: 2800000, guid: 202d0fb4c30ecb3438875dc6d4c5abc0, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: PlayerBlock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: HewnLogDocksPillarBeamEnd270
+    Builder: {fileID: 11400000, guid: 511afe8e46a82cf4f9c309698b75626b, type: 2}
+    Material: {fileID: 2100000, guid: 6e5cdd861d8113f4e80ce79d8d42bcfc, type: 2}
+    LODTexture: {fileID: 2800000, guid: 202d0fb4c30ecb3438875dc6d4c5abc0, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: PlayerBlock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: HewnLogDocksPillarBeamEndAlt
+    Builder: {fileID: 11400000, guid: 40ae2c145db00814bbb7080db91a0e36, type: 2}
+    Material: {fileID: 2100000, guid: e806347bfe9d1b7458c494d87df2dbf4, type: 2}
+    LODTexture: {fileID: 2800000, guid: 202d0fb4c30ecb3438875dc6d4c5abc0, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: PlayerBlock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: HewnLogDocksPillarBeamEndAlt90
+    Builder: {fileID: 11400000, guid: 6f3fd06f03e4bcd48b6a57892440e4f8, type: 2}
+    Material: {fileID: 2100000, guid: 6e5cdd861d8113f4e80ce79d8d42bcfc, type: 2}
+    LODTexture: {fileID: 2800000, guid: 202d0fb4c30ecb3438875dc6d4c5abc0, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: PlayerBlock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: HewnLogDocksPillarBeamEndAlt180
+    Builder: {fileID: 11400000, guid: 9b3db095bc5e1884482ab146d4e9def1, type: 2}
+    Material: {fileID: 2100000, guid: e806347bfe9d1b7458c494d87df2dbf4, type: 2}
+    LODTexture: {fileID: 2800000, guid: 202d0fb4c30ecb3438875dc6d4c5abc0, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: PlayerBlock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: HewnLogDocksPillarBeamEndAlt270
+    Builder: {fileID: 11400000, guid: 218f091e5006a0a40863d1e4aae1a85f, type: 2}
+    Material: {fileID: 2100000, guid: 6e5cdd861d8113f4e80ce79d8d42bcfc, type: 2}
+    LODTexture: {fileID: 2800000, guid: 202d0fb4c30ecb3438875dc6d4c5abc0, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: PlayerBlock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: HewnLogDocksPillarBeamJunction
+    Builder: {fileID: 11400000, guid: b8decfe8d4471834a8b1e72e5535c0d2, type: 2}
+    Material: {fileID: 2100000, guid: 27c91a5c4f113534ea1feecb54495b90, type: 2}
+    LODTexture: {fileID: 2800000, guid: 202d0fb4c30ecb3438875dc6d4c5abc0, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials:
+    - {fileID: 2100000, guid: e806347bfe9d1b7458c494d87df2dbf4, type: 2}
+    OverrideSubMaterialsTransparency: 00
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: PlayerBlock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: HewnLogDocksPillarBeamJunction90
+    Builder: {fileID: 11400000, guid: fb07ba8f7eef4f54b92761af704674eb, type: 2}
+    Material: {fileID: 2100000, guid: 27c91a5c4f113534ea1feecb54495b90, type: 2}
+    LODTexture: {fileID: 2800000, guid: 202d0fb4c30ecb3438875dc6d4c5abc0, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials:
+    - {fileID: 2100000, guid: 6e5cdd861d8113f4e80ce79d8d42bcfc, type: 2}
+    OverrideSubMaterialsTransparency: 00
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: PlayerBlock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: HewnLogDocksPillarBeamJunction180
+    Builder: {fileID: 11400000, guid: e1f7100ed71cdc24c9046239a457ed3a, type: 2}
+    Material: {fileID: 2100000, guid: 27c91a5c4f113534ea1feecb54495b90, type: 2}
+    LODTexture: {fileID: 2800000, guid: 202d0fb4c30ecb3438875dc6d4c5abc0, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials:
+    - {fileID: 2100000, guid: e806347bfe9d1b7458c494d87df2dbf4, type: 2}
+    OverrideSubMaterialsTransparency: 00
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: PlayerBlock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: HewnLogDocksPillarBeamJunction270
+    Builder: {fileID: 11400000, guid: 9f6d3fc667f968a458b978562a7ffc42, type: 2}
+    Material: {fileID: 2100000, guid: 27c91a5c4f113534ea1feecb54495b90, type: 2}
+    LODTexture: {fileID: 2800000, guid: 202d0fb4c30ecb3438875dc6d4c5abc0, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials:
+    - {fileID: 2100000, guid: 6e5cdd861d8113f4e80ce79d8d42bcfc, type: 2}
+    OverrideSubMaterialsTransparency: 00
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: PlayerBlock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: HewnLogDocksPillarBeam
+    Builder: {fileID: 11400000, guid: d451e23a020cc4c498584602ad4ded6c, type: 2}
+    Material: {fileID: 2100000, guid: e806347bfe9d1b7458c494d87df2dbf4, type: 2}
+    LODTexture: {fileID: 2800000, guid: 202d0fb4c30ecb3438875dc6d4c5abc0, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: PlayerBlock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: HewnLogDocksPillarBeam90
+    Builder: {fileID: 11400000, guid: 05b2222075ddbee44875565602d20d2e, type: 2}
+    Material: {fileID: 2100000, guid: 6e5cdd861d8113f4e80ce79d8d42bcfc, type: 2}
+    LODTexture: {fileID: 2800000, guid: 202d0fb4c30ecb3438875dc6d4c5abc0, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: PlayerBlock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: HewnLogDocksPillarBeam180
+    Builder: {fileID: 11400000, guid: ec510ec7456e10746958c555ebb50a7e, type: 2}
+    Material: {fileID: 2100000, guid: e806347bfe9d1b7458c494d87df2dbf4, type: 2}
+    LODTexture: {fileID: 2800000, guid: 202d0fb4c30ecb3438875dc6d4c5abc0, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: PlayerBlock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: HewnLogDocksPillarBeam270
+    Builder: {fileID: 11400000, guid: 8e3811724616b694b8ea18c73fcd53b8, type: 2}
+    Material: {fileID: 2100000, guid: 6e5cdd861d8113f4e80ce79d8d42bcfc, type: 2}
+    LODTexture: {fileID: 2800000, guid: 202d0fb4c30ecb3438875dc6d4c5abc0, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: PlayerBlock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: HewnLogDocksRamps
+    Builder: {fileID: 11400000, guid: 98e64336edf00dc42ba7c6ab651dc19b, type: 2}
+    Material: {fileID: 2100000, guid: f9d0246554e304b4db029725bbc1449f, type: 2}
+    LODTexture: {fileID: 2800000, guid: 202d0fb4c30ecb3438875dc6d4c5abc0, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: GenericDocksRamp1
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: Playerblock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: HewnLogDocksRamps90
+    Builder: {fileID: 11400000, guid: b4dfe804e21f0f3458ff8fd5cc2cd8ea, type: 2}
+    Material: {fileID: 2100000, guid: 69d0ba223340ea646a91b9119fb55aa3, type: 2}
+    LODTexture: {fileID: 2800000, guid: 202d0fb4c30ecb3438875dc6d4c5abc0, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: GenericDocksRamp1
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: Playerblock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: HewnLogDocksRamps180
+    Builder: {fileID: 11400000, guid: 91d16f461805eaa47bb9d4f90bf8402e, type: 2}
+    Material: {fileID: 2100000, guid: f9d0246554e304b4db029725bbc1449f, type: 2}
+    LODTexture: {fileID: 2800000, guid: 202d0fb4c30ecb3438875dc6d4c5abc0, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: GenericDocksRamp1
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: Playerblock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: HewnLogDocksRamps270
+    Builder: {fileID: 11400000, guid: 1a9deea2ddd8af34abe800c849a6cf81, type: 2}
+    Material: {fileID: 2100000, guid: 69d0ba223340ea646a91b9119fb55aa3, type: 2}
+    LODTexture: {fileID: 2800000, guid: 202d0fb4c30ecb3438875dc6d4c5abc0, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: GenericDocksRamp1
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: Playerblock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: HewnLogDocksFenceCorner
+    Builder: {fileID: 11400000, guid: fd55e776b2e9c414b960f7d4d94ab64b, type: 2}
+    Material: {fileID: 2100000, guid: 27c91a5c4f113534ea1feecb54495b90, type: 2}
+    LODTexture: {fileID: 2800000, guid: 202d0fb4c30ecb3438875dc6d4c5abc0, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: Playerblock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: HewnLogDocksFenceCorner90
+    Builder: {fileID: 11400000, guid: aa08c85f43d810e4b8d8f8ffcca0ae95, type: 2}
+    Material: {fileID: 2100000, guid: 27c91a5c4f113534ea1feecb54495b90, type: 2}
+    LODTexture: {fileID: 2800000, guid: 202d0fb4c30ecb3438875dc6d4c5abc0, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: Playerblock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: HewnLogDocksFenceCorner180
+    Builder: {fileID: 11400000, guid: 913c8754ca945824ea86b80b320db1d1, type: 2}
+    Material: {fileID: 2100000, guid: 27c91a5c4f113534ea1feecb54495b90, type: 2}
+    LODTexture: {fileID: 2800000, guid: 202d0fb4c30ecb3438875dc6d4c5abc0, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: Playerblock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: HewnLogDocksFenceCorner270
+    Builder: {fileID: 11400000, guid: 5b21f5de50363344b92510abf0c646a9, type: 2}
+    Material: {fileID: 2100000, guid: 27c91a5c4f113534ea1feecb54495b90, type: 2}
+    LODTexture: {fileID: 2800000, guid: 202d0fb4c30ecb3438875dc6d4c5abc0, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: Playerblock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: HewnLogDocksFenceX
+    Builder: {fileID: 11400000, guid: 6ce8456e0651e7447a5dbe3e4cd218aa, type: 2}
+    Material: {fileID: 2100000, guid: 27c91a5c4f113534ea1feecb54495b90, type: 2}
+    LODTexture: {fileID: 2800000, guid: 202d0fb4c30ecb3438875dc6d4c5abc0, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: Playerblock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: HewnLogDocksFenceX90
+    Builder: {fileID: 11400000, guid: dac14a554ddbe2c4d8ac72d62980c6e6, type: 2}
+    Material: {fileID: 2100000, guid: 27c91a5c4f113534ea1feecb54495b90, type: 2}
+    LODTexture: {fileID: 2800000, guid: 202d0fb4c30ecb3438875dc6d4c5abc0, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 1
+    WaterLoggable: 0
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: Playerblock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: HewnLogDocksFenceX180
+    Builder: {fileID: 11400000, guid: 25625181cb370204f962ee3f5a8febfe, type: 2}
+    Material: {fileID: 2100000, guid: 27c91a5c4f113534ea1feecb54495b90, type: 2}
+    LODTexture: {fileID: 2800000, guid: 202d0fb4c30ecb3438875dc6d4c5abc0, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 1
+    WaterLoggable: 0
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: Playerblock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: HewnLogDocksFenceX270
+    Builder: {fileID: 11400000, guid: 472b0a3bc7246934ab69cd0a27eb45ca, type: 2}
+    Material: {fileID: 2100000, guid: 27c91a5c4f113534ea1feecb54495b90, type: 2}
+    LODTexture: {fileID: 2800000, guid: 202d0fb4c30ecb3438875dc6d4c5abc0, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 1
+    WaterLoggable: 0
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: Playerblock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: HewnLogDocksFenceT
+    Builder: {fileID: 11400000, guid: 0f253a217bb967e4bad8bd780c4a41fb, type: 2}
+    Material: {fileID: 2100000, guid: 27c91a5c4f113534ea1feecb54495b90, type: 2}
+    LODTexture: {fileID: 2800000, guid: 202d0fb4c30ecb3438875dc6d4c5abc0, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: Playerblock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: HewnLogDocksFenceT90
+    Builder: {fileID: 11400000, guid: 43c87c8749cf97946b5ab4d816cd1c38, type: 2}
+    Material: {fileID: 2100000, guid: 27c91a5c4f113534ea1feecb54495b90, type: 2}
+    LODTexture: {fileID: 2800000, guid: 202d0fb4c30ecb3438875dc6d4c5abc0, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: Playerblock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: HewnLogDocksFenceT180
+    Builder: {fileID: 11400000, guid: 2890ebd3a534c8a41b4e560f2438e46b, type: 2}
+    Material: {fileID: 2100000, guid: 27c91a5c4f113534ea1feecb54495b90, type: 2}
+    LODTexture: {fileID: 2800000, guid: 202d0fb4c30ecb3438875dc6d4c5abc0, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: Playerblock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: HewnLogDocksFenceT270
+    Builder: {fileID: 11400000, guid: f836522a5428de5439283968017160df, type: 2}
+    Material: {fileID: 2100000, guid: 27c91a5c4f113534ea1feecb54495b90, type: 2}
+    LODTexture: {fileID: 2800000, guid: 202d0fb4c30ecb3438875dc6d4c5abc0, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: Playerblock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: HewnLogDocksFenceMid
+    Builder: {fileID: 11400000, guid: e872772d807720c4db0ee6dc7d3f34cf, type: 2}
+    Material: {fileID: 2100000, guid: 27c91a5c4f113534ea1feecb54495b90, type: 2}
+    LODTexture: {fileID: 2800000, guid: 202d0fb4c30ecb3438875dc6d4c5abc0, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: DocksFenceRope1
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: Playerblock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: HewnLogDocksFenceMid90
+    Builder: {fileID: 11400000, guid: 52239a7fdadecf942914d94f6b57fe01, type: 2}
+    Material: {fileID: 2100000, guid: 27c91a5c4f113534ea1feecb54495b90, type: 2}
+    LODTexture: {fileID: 2800000, guid: 202d0fb4c30ecb3438875dc6d4c5abc0, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: DocksFenceRope2
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: Playerblock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: HewnLogDocksFenceMid180
+    Builder: {fileID: 11400000, guid: 410b69cbd3345444d9ce3f96e8f71588, type: 2}
+    Material: {fileID: 2100000, guid: 27c91a5c4f113534ea1feecb54495b90, type: 2}
+    LODTexture: {fileID: 2800000, guid: 202d0fb4c30ecb3438875dc6d4c5abc0, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: DocksFenceRope1
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: Playerblock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: HewnLogDocksFenceMid270
+    Builder: {fileID: 11400000, guid: a8771b9a1d8529b488f04c5e5d026c5d, type: 2}
+    Material: {fileID: 2100000, guid: 27c91a5c4f113534ea1feecb54495b90, type: 2}
+    LODTexture: {fileID: 2800000, guid: 202d0fb4c30ecb3438875dc6d4c5abc0, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: DocksFenceRope2
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: Playerblock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: HewnLogDocksFenceEndCap
+    Builder: {fileID: 11400000, guid: af66df94811d90d4c9734a455bc0b586, type: 2}
+    Material: {fileID: 2100000, guid: 27c91a5c4f113534ea1feecb54495b90, type: 2}
+    LODTexture: {fileID: 2800000, guid: 202d0fb4c30ecb3438875dc6d4c5abc0, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: DocksFenceRope1
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: Playerblock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: HewnLogDocksFenceEndCap90
+    Builder: {fileID: 11400000, guid: b439d9946ce3578448b65c8fb533decf, type: 2}
+    Material: {fileID: 2100000, guid: 27c91a5c4f113534ea1feecb54495b90, type: 2}
+    LODTexture: {fileID: 2800000, guid: 202d0fb4c30ecb3438875dc6d4c5abc0, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: DocksFenceRope2
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: Playerblock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: HewnLogDocksFenceEndCap180
+    Builder: {fileID: 11400000, guid: 2ad886ef20d90ef4b831d59486909bed, type: 2}
+    Material: {fileID: 2100000, guid: 27c91a5c4f113534ea1feecb54495b90, type: 2}
+    LODTexture: {fileID: 2800000, guid: 202d0fb4c30ecb3438875dc6d4c5abc0, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: DocksFenceRope1
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: Playerblock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: HewnLogDocksFenceEndCap270
+    Builder: {fileID: 11400000, guid: aa2ca97323ca27748a4f04310bc3d797, type: 2}
+    Material: {fileID: 2100000, guid: 27c91a5c4f113534ea1feecb54495b90, type: 2}
+    LODTexture: {fileID: 2800000, guid: 202d0fb4c30ecb3438875dc6d4c5abc0, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: DocksFenceRope2
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: Playerblock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: HewnLogDocksBarrelPlatform
+    Builder: {fileID: 11400000, guid: 4ca91233b6fd50e4782fe05abb969b95, type: 2}
+    Material: {fileID: 2100000, guid: f9d0246554e304b4db029725bbc1449f, type: 2}
+    LODTexture: {fileID: 2800000, guid: 202d0fb4c30ecb3438875dc6d4c5abc0, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: Playerblock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: HewnLogDocksBarrelPlatform90
+    Builder: {fileID: 11400000, guid: 8b7b9a5b74eda51489d419af5ca6a89e, type: 2}
+    Material: {fileID: 2100000, guid: 69d0ba223340ea646a91b9119fb55aa3, type: 2}
+    LODTexture: {fileID: 2800000, guid: 202d0fb4c30ecb3438875dc6d4c5abc0, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: Playerblock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: HewnLogDocksBarrelPlatform180
+    Builder: {fileID: 11400000, guid: 87a5883e7a8c7c948b8b2bf9845922d2, type: 2}
+    Material: {fileID: 2100000, guid: f9d0246554e304b4db029725bbc1449f, type: 2}
+    LODTexture: {fileID: 2800000, guid: 202d0fb4c30ecb3438875dc6d4c5abc0, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: Playerblock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: HewnLogDocksBarrelPlatform270
+    Builder: {fileID: 11400000, guid: 45a6719d8c5a94f42aab377256b85e71, type: 2}
+    Material: {fileID: 2100000, guid: 69d0ba223340ea646a91b9119fb55aa3, type: 2}
+    LODTexture: {fileID: 2800000, guid: 202d0fb4c30ecb3438875dc6d4c5abc0, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: Playerblock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: HewnLogDocksFenceSolo
+    Builder: {fileID: 11400000, guid: 661ebfe8a427bb34dbbb01056342e226, type: 2}
+    Material: {fileID: 2100000, guid: 27c91a5c4f113534ea1feecb54495b90, type: 2}
+    LODTexture: {fileID: 2800000, guid: 202d0fb4c30ecb3438875dc6d4c5abc0, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: DocksFenceRope1
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: Playerblock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: HewnLogDocksFenceSolo90
+    Builder: {fileID: 11400000, guid: d87df7a3c2450df4b84654348f3b1890, type: 2}
+    Material: {fileID: 2100000, guid: 27c91a5c4f113534ea1feecb54495b90, type: 2}
+    LODTexture: {fileID: 2800000, guid: 202d0fb4c30ecb3438875dc6d4c5abc0, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: DocksFenceRope2
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: Playerblock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: HewnLogDocksFenceSolo180
+    Builder: {fileID: 11400000, guid: 1375e864d31b98b43b9437cb1b4943e3, type: 2}
+    Material: {fileID: 2100000, guid: 27c91a5c4f113534ea1feecb54495b90, type: 2}
+    LODTexture: {fileID: 2800000, guid: 202d0fb4c30ecb3438875dc6d4c5abc0, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: DocksFenceRope1
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: Playerblock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: HewnLogDocksFenceSolo270
+    Builder: {fileID: 11400000, guid: 8cbe143fbe39004479dc60d17df56bac, type: 2}
+    Material: {fileID: 2100000, guid: 27c91a5c4f113534ea1feecb54495b90, type: 2}
+    LODTexture: {fileID: 2800000, guid: 202d0fb4c30ecb3438875dc6d4c5abc0, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: DocksFenceRope2
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: Playerblock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: HewnLogDocksRampA
+    Builder: {fileID: 11400000, guid: e6386638f5934a045ab3cd9ba7de0770, type: 2}
+    Material: {fileID: 2100000, guid: f9d0246554e304b4db029725bbc1449f, type: 2}
+    LODTexture: {fileID: 2800000, guid: 202d0fb4c30ecb3438875dc6d4c5abc0, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: Playerblock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 1
+    Editor: {fileID: 0}
+  - Name: HewnLogDocksRampA90
+    Builder: {fileID: 11400000, guid: 955d9865d18bbf143b4b66831835cc2f, type: 2}
+    Material: {fileID: 2100000, guid: 69d0ba223340ea646a91b9119fb55aa3, type: 2}
+    LODTexture: {fileID: 2800000, guid: 202d0fb4c30ecb3438875dc6d4c5abc0, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: Playerblock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 1
+    Editor: {fileID: 0}
+  - Name: HewnLogDocksRampA180
+    Builder: {fileID: 11400000, guid: bc9fec1fbb65f8c4d9f0c2b395fefda0, type: 2}
+    Material: {fileID: 2100000, guid: f9d0246554e304b4db029725bbc1449f, type: 2}
+    LODTexture: {fileID: 2800000, guid: 202d0fb4c30ecb3438875dc6d4c5abc0, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: Playerblock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 1
+    Editor: {fileID: 0}
+  - Name: HewnLogDocksRampA270
+    Builder: {fileID: 11400000, guid: d7c165e407f3d0f4d9efeff712b52d85, type: 2}
+    Material: {fileID: 2100000, guid: 69d0ba223340ea646a91b9119fb55aa3, type: 2}
+    LODTexture: {fileID: 2800000, guid: 202d0fb4c30ecb3438875dc6d4c5abc0, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: Playerblock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 1
+    Editor: {fileID: 0}
+  - Name: HewnLogDocksRampB
+    Builder: {fileID: 11400000, guid: 80c6176581c1f9e4991b57ba15110ac6, type: 2}
+    Material: {fileID: 2100000, guid: f9d0246554e304b4db029725bbc1449f, type: 2}
+    LODTexture: {fileID: 2800000, guid: 202d0fb4c30ecb3438875dc6d4c5abc0, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: Playerblock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 1
+    Editor: {fileID: 0}
+  - Name: HewnLogDocksRampB90
+    Builder: {fileID: 11400000, guid: 92fdaacc20e1a2c49b54c6a0d1aab837, type: 2}
+    Material: {fileID: 2100000, guid: 69d0ba223340ea646a91b9119fb55aa3, type: 2}
+    LODTexture: {fileID: 2800000, guid: 202d0fb4c30ecb3438875dc6d4c5abc0, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: Playerblock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 1
+    Editor: {fileID: 0}
+  - Name: HewnLogDocksRampB180
+    Builder: {fileID: 11400000, guid: 41f1764d2dcd9e7409838c5893275bcd, type: 2}
+    Material: {fileID: 2100000, guid: f9d0246554e304b4db029725bbc1449f, type: 2}
+    LODTexture: {fileID: 2800000, guid: 202d0fb4c30ecb3438875dc6d4c5abc0, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: Playerblock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 1
+    Editor: {fileID: 0}
+  - Name: HewnLogDocksRampB270
+    Builder: {fileID: 11400000, guid: 52687531bbb703547ae9647646651d45, type: 2}
+    Material: {fileID: 2100000, guid: 69d0ba223340ea646a91b9119fb55aa3, type: 2}
+    LODTexture: {fileID: 2800000, guid: 202d0fb4c30ecb3438875dc6d4c5abc0, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: Playerblock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 1
+    Editor: {fileID: 0}
+  - Name: HewnLogDocksRampC
+    Builder: {fileID: 11400000, guid: e2b2cb68a90dc6b4a9b7b52393d03e57, type: 2}
+    Material: {fileID: 2100000, guid: f9d0246554e304b4db029725bbc1449f, type: 2}
+    LODTexture: {fileID: 2800000, guid: 202d0fb4c30ecb3438875dc6d4c5abc0, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: Playerblock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 1
+    Editor: {fileID: 0}
+  - Name: HewnLogDocksRampC90
+    Builder: {fileID: 11400000, guid: 4cf55852a681f894a8d99854cb4824a8, type: 2}
+    Material: {fileID: 2100000, guid: 69d0ba223340ea646a91b9119fb55aa3, type: 2}
+    LODTexture: {fileID: 2800000, guid: 202d0fb4c30ecb3438875dc6d4c5abc0, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: Playerblock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 1
+    Editor: {fileID: 0}
+  - Name: HewnLogDocksRampC180
+    Builder: {fileID: 11400000, guid: 36732ac8b38332b46a170124ef73915e, type: 2}
+    Material: {fileID: 2100000, guid: f9d0246554e304b4db029725bbc1449f, type: 2}
+    LODTexture: {fileID: 2800000, guid: 202d0fb4c30ecb3438875dc6d4c5abc0, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: Playerblock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 1
+    Editor: {fileID: 0}
+  - Name: HewnLogDocksRampC270
+    Builder: {fileID: 11400000, guid: 2a97f7d65c27d1b41b7d41395d0610ff, type: 2}
+    Material: {fileID: 2100000, guid: 69d0ba223340ea646a91b9119fb55aa3, type: 2}
+    LODTexture: {fileID: 2800000, guid: 202d0fb4c30ecb3438875dc6d4c5abc0, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: Playerblock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 1
+    Editor: {fileID: 0}
+  - Name: HewnLogDocksRampD
+    Builder: {fileID: 11400000, guid: bb40af33720a8214694fbcb3b50fb967, type: 2}
+    Material: {fileID: 2100000, guid: f9d0246554e304b4db029725bbc1449f, type: 2}
+    LODTexture: {fileID: 2800000, guid: 202d0fb4c30ecb3438875dc6d4c5abc0, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: Playerblock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 1
+    Editor: {fileID: 0}
+  - Name: HewnLogDocksRampD90
+    Builder: {fileID: 11400000, guid: ba0c1c63f5e836f4bb71478d53771935, type: 2}
+    Material: {fileID: 2100000, guid: 69d0ba223340ea646a91b9119fb55aa3, type: 2}
+    LODTexture: {fileID: 2800000, guid: 202d0fb4c30ecb3438875dc6d4c5abc0, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: Playerblock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 1
+    Editor: {fileID: 0}
+  - Name: HewnLogDocksRampD180
+    Builder: {fileID: 11400000, guid: 09c16f42581fa9449a30c39b90a68c61, type: 2}
+    Material: {fileID: 2100000, guid: f9d0246554e304b4db029725bbc1449f, type: 2}
+    LODTexture: {fileID: 2800000, guid: 202d0fb4c30ecb3438875dc6d4c5abc0, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: Playerblock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 1
+    Editor: {fileID: 0}
+  - Name: HewnLogDocksRampD270
+    Builder: {fileID: 11400000, guid: 5b0d3b87a78af2243b66ab0edf64d467, type: 2}
+    Material: {fileID: 2100000, guid: 69d0ba223340ea646a91b9119fb55aa3, type: 2}
+    LODTexture: {fileID: 2800000, guid: 202d0fb4c30ecb3438875dc6d4c5abc0, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: Playerblock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 1
+    Editor: {fileID: 0}
+  - Name: HewnLogDocksRampsCorner
+    Builder: {fileID: 11400000, guid: 5053f455c528eb045ab60b161ff162ff, type: 2}
+    Material: {fileID: 2100000, guid: f9d0246554e304b4db029725bbc1449f, type: 2}
+    LODTexture: {fileID: 2800000, guid: 202d0fb4c30ecb3438875dc6d4c5abc0, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: GenericDocksRamp1
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: Playerblock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 1
+    Editor: {fileID: 0}
+  - Name: HewnLogDocksRampsCorner90
+    Builder: {fileID: 11400000, guid: 8e6955c3ebd0dfd4f84ec2324fe4e978, type: 2}
+    Material: {fileID: 2100000, guid: 69d0ba223340ea646a91b9119fb55aa3, type: 2}
+    LODTexture: {fileID: 2800000, guid: 202d0fb4c30ecb3438875dc6d4c5abc0, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: GenericDocksRamp1
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: Playerblock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 1
+    Editor: {fileID: 0}
+  - Name: HewnLogDocksRampsCorner180
+    Builder: {fileID: 11400000, guid: fce07d9a66ce77148aaa750e3d6103c1, type: 2}
+    Material: {fileID: 2100000, guid: f9d0246554e304b4db029725bbc1449f, type: 2}
+    LODTexture: {fileID: 2800000, guid: 202d0fb4c30ecb3438875dc6d4c5abc0, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: GenericDocksRamp1
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: Playerblock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 1
+    Editor: {fileID: 0}
+  - Name: HewnLogDocksRampsCorner270
+    Builder: {fileID: 11400000, guid: 583d917617db3454695c17c8b8d18f15, type: 2}
+    Material: {fileID: 2100000, guid: 69d0ba223340ea646a91b9119fb55aa3, type: 2}
+    LODTexture: {fileID: 2800000, guid: 202d0fb4c30ecb3438875dc6d4c5abc0, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: GenericDocksRamp1
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: Playerblock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 1
+    Editor: {fileID: 0}
+  - Name: HewnLogDocksFenceEndCapDouble
+    Builder: {fileID: 11400000, guid: 471c6aacf509c4242918bd8deaa5b23a, type: 2}
+    Material: {fileID: 2100000, guid: 27c91a5c4f113534ea1feecb54495b90, type: 2}
+    LODTexture: {fileID: 2800000, guid: 202d0fb4c30ecb3438875dc6d4c5abc0, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: DocksFenceRope1
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: Playerblock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: HewnLogDocksFenceEndCapDouble90
+    Builder: {fileID: 11400000, guid: a9315162a70c5fc46886afff69ad2beb, type: 2}
+    Material: {fileID: 2100000, guid: 27c91a5c4f113534ea1feecb54495b90, type: 2}
+    LODTexture: {fileID: 2800000, guid: 202d0fb4c30ecb3438875dc6d4c5abc0, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: DocksFenceRope2
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: Playerblock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: HewnLogDocksFenceEndCapDouble180
+    Builder: {fileID: 11400000, guid: 2c1410ac7bbcb3747bbab31d25417123, type: 2}
+    Material: {fileID: 2100000, guid: 27c91a5c4f113534ea1feecb54495b90, type: 2}
+    LODTexture: {fileID: 2800000, guid: 202d0fb4c30ecb3438875dc6d4c5abc0, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: DocksFenceRope1
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: Playerblock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: HewnLogDocksFenceEndCapDouble270
+    Builder: {fileID: 11400000, guid: d24372a22a6a7a14aafe575aeccef2e0, type: 2}
+    Material: {fileID: 2100000, guid: 27c91a5c4f113534ea1feecb54495b90, type: 2}
+    LODTexture: {fileID: 2800000, guid: 202d0fb4c30ecb3438875dc6d4c5abc0, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: DocksFenceRope2
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: Playerblock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: HewnLogDocksRampsCornerInverted
+    Builder: {fileID: 11400000, guid: 66f088cd4b3163d4892088603ac8176f, type: 2}
+    Material: {fileID: 2100000, guid: f9d0246554e304b4db029725bbc1449f, type: 2}
+    LODTexture: {fileID: 2800000, guid: 202d0fb4c30ecb3438875dc6d4c5abc0, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: GenericDocksRamp1
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: Playerblock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: HewnLogDocksRampsCornerInverted90
+    Builder: {fileID: 11400000, guid: 191f70436ab7b3847a2ed512f92e499d, type: 2}
+    Material: {fileID: 2100000, guid: f9d0246554e304b4db029725bbc1449f, type: 2}
+    LODTexture: {fileID: 2800000, guid: 202d0fb4c30ecb3438875dc6d4c5abc0, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: GenericDocksRamp1
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: Playerblock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: HewnLogDocksRampsCornerInverted180
+    Builder: {fileID: 11400000, guid: 33b369a4c5d752440b7cb10278d3816d, type: 2}
+    Material: {fileID: 2100000, guid: f9d0246554e304b4db029725bbc1449f, type: 2}
+    LODTexture: {fileID: 2800000, guid: 202d0fb4c30ecb3438875dc6d4c5abc0, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: GenericDocksRamp1
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: Playerblock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: HewnLogDocksRampsCornerInverted270
+    Builder: {fileID: 11400000, guid: 7649cba1a2f13fc459538103069d259e, type: 2}
+    Material: {fileID: 2100000, guid: f9d0246554e304b4db029725bbc1449f, type: 2}
+    LODTexture: {fileID: 2800000, guid: 202d0fb4c30ecb3438875dc6d4c5abc0, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: GenericDocksRamp1
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: Playerblock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: HewnLogDocksPillarBeamX
+    Builder: {fileID: 11400000, guid: 1245be7e1abc2ac4994d7c712883daef, type: 2}
+    Material: {fileID: 2100000, guid: e806347bfe9d1b7458c494d87df2dbf4, type: 2}
+    LODTexture: {fileID: 2800000, guid: 202d0fb4c30ecb3438875dc6d4c5abc0, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials:
+    - {fileID: 2100000, guid: 6e5cdd861d8113f4e80ce79d8d42bcfc, type: 2}
+    OverrideSubMaterialsTransparency: 00
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: PlayerBlock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: HewnLogDocksPillarBeamT
+    Builder: {fileID: 11400000, guid: 54c10906fece5d9419fe458f4aec92bc, type: 2}
+    Material: {fileID: 2100000, guid: e806347bfe9d1b7458c494d87df2dbf4, type: 2}
+    LODTexture: {fileID: 2800000, guid: 202d0fb4c30ecb3438875dc6d4c5abc0, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials:
+    - {fileID: 2100000, guid: 6e5cdd861d8113f4e80ce79d8d42bcfc, type: 2}
+    OverrideSubMaterialsTransparency: 00
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: PlayerBlock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: HewnLogDocksPillarBeamT90
+    Builder: {fileID: 11400000, guid: 6f3e553fdd7b91249b54c36089e62467, type: 2}
+    Material: {fileID: 2100000, guid: 6e5cdd861d8113f4e80ce79d8d42bcfc, type: 2}
+    LODTexture: {fileID: 2800000, guid: 202d0fb4c30ecb3438875dc6d4c5abc0, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials:
+    - {fileID: 2100000, guid: e806347bfe9d1b7458c494d87df2dbf4, type: 2}
+    OverrideSubMaterialsTransparency: 00
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: PlayerBlock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: HewnLogDocksPillarBeamT180
+    Builder: {fileID: 11400000, guid: 58d316f13d4dc9747b9751b4271c433b, type: 2}
+    Material: {fileID: 2100000, guid: e806347bfe9d1b7458c494d87df2dbf4, type: 2}
+    LODTexture: {fileID: 2800000, guid: 202d0fb4c30ecb3438875dc6d4c5abc0, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials:
+    - {fileID: 2100000, guid: 6e5cdd861d8113f4e80ce79d8d42bcfc, type: 2}
+    OverrideSubMaterialsTransparency: 00
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: PlayerBlock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: HewnLogDocksPillarBeamT270
+    Builder: {fileID: 11400000, guid: 47888d7faa7577446b6260fca24e829e, type: 2}
+    Material: {fileID: 2100000, guid: 6e5cdd861d8113f4e80ce79d8d42bcfc, type: 2}
+    LODTexture: {fileID: 2800000, guid: 202d0fb4c30ecb3438875dc6d4c5abc0, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials:
+    - {fileID: 2100000, guid: e806347bfe9d1b7458c494d87df2dbf4, type: 2}
+    OverrideSubMaterialsTransparency: 00
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: PlayerBlock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: HewnLogDocksPillarBeamCorner
+    Builder: {fileID: 11400000, guid: 954890fd370d54b4bace8911135e617c, type: 2}
+    Material: {fileID: 2100000, guid: e806347bfe9d1b7458c494d87df2dbf4, type: 2}
+    LODTexture: {fileID: 2800000, guid: 202d0fb4c30ecb3438875dc6d4c5abc0, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials:
+    - {fileID: 2100000, guid: 6e5cdd861d8113f4e80ce79d8d42bcfc, type: 2}
+    OverrideSubMaterialsTransparency: 00
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: PlayerBlock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: HewnLogDocksPillarBeamCorner90
+    Builder: {fileID: 11400000, guid: 7f597204df70e604a837627e980d1877, type: 2}
+    Material: {fileID: 2100000, guid: 6e5cdd861d8113f4e80ce79d8d42bcfc, type: 2}
+    LODTexture: {fileID: 2800000, guid: 202d0fb4c30ecb3438875dc6d4c5abc0, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials:
+    - {fileID: 2100000, guid: e806347bfe9d1b7458c494d87df2dbf4, type: 2}
+    OverrideSubMaterialsTransparency: 00
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: PlayerBlock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: HewnLogDocksPillarBeamCorner180
+    Builder: {fileID: 11400000, guid: 8363a00d0a2e3ca4495a3b2a53fa594d, type: 2}
+    Material: {fileID: 2100000, guid: e806347bfe9d1b7458c494d87df2dbf4, type: 2}
+    LODTexture: {fileID: 2800000, guid: 202d0fb4c30ecb3438875dc6d4c5abc0, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials:
+    - {fileID: 2100000, guid: 6e5cdd861d8113f4e80ce79d8d42bcfc, type: 2}
+    OverrideSubMaterialsTransparency: 00
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: PlayerBlock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: HewnLogDocksPillarBeamCorner270
+    Builder: {fileID: 11400000, guid: c1a4c43a0d8faaa46a039d8dbdd6ce37, type: 2}
+    Material: {fileID: 2100000, guid: 6e5cdd861d8113f4e80ce79d8d42bcfc, type: 2}
+    LODTexture: {fileID: 2800000, guid: 202d0fb4c30ecb3438875dc6d4c5abc0, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials:
+    - {fileID: 2100000, guid: e806347bfe9d1b7458c494d87df2dbf4, type: 2}
+    OverrideSubMaterialsTransparency: 00
+    MinimapColor: {r: 1, g: 0.84705883, b: 0.60784316, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: PlayerBlock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}

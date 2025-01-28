@@ -1,0 +1,1303 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bad84a2cfb63014f88243989c9d3ef2, type: 3}
+  m_Name: Mortared Sandstone Blocks
+  m_EditorClassIdentifier: 
+  Blocks:
+  - Name: MortaredSandstoneStairs
+    Builder: {fileID: 11400000, guid: 3968cd3d37eb0704686bb0f51fdc2ef0, type: 2}
+    Material: {fileID: 2100000, guid: 5c358a7691a232f4f99323fe02ef1bfc, type: 2}
+    LODTexture: {fileID: 2800000, guid: 355bc9f07c30b7844b9d8f5358552399, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 0.6320754, g: 0.32663202, b: 0.2653524, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Stone
+    MusicCategory: PlayerBlock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: MortaredSandstoneStairs90
+    Builder: {fileID: 11400000, guid: 500f5a7e07181fd47b6de29a3773a5ca, type: 2}
+    Material: {fileID: 2100000, guid: 5c358a7691a232f4f99323fe02ef1bfc, type: 2}
+    LODTexture: {fileID: 2800000, guid: 355bc9f07c30b7844b9d8f5358552399, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 0.6320754, g: 0.32663202, b: 0.2653524, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Stone
+    MusicCategory: PlayerBlock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: MortaredSandstoneStairs180
+    Builder: {fileID: 11400000, guid: d9af9045e2a72754cbba384531f25bc3, type: 2}
+    Material: {fileID: 2100000, guid: 5c358a7691a232f4f99323fe02ef1bfc, type: 2}
+    LODTexture: {fileID: 2800000, guid: 355bc9f07c30b7844b9d8f5358552399, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 0.6320754, g: 0.32663202, b: 0.2653524, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Stone
+    MusicCategory: PlayerBlock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: MortaredSandstoneStairs270
+    Builder: {fileID: 11400000, guid: 4864928efc3b3bf43bf313bbfe21b71e, type: 2}
+    Material: {fileID: 2100000, guid: 5c358a7691a232f4f99323fe02ef1bfc, type: 2}
+    LODTexture: {fileID: 2800000, guid: 355bc9f07c30b7844b9d8f5358552399, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 0.6320754, g: 0.32663202, b: 0.2653524, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Stone
+    MusicCategory: PlayerBlock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: MortaredSandstoneWall
+    Builder: {fileID: 11400000, guid: 3acf509b4180ac54dabf23033bd48c95, type: 2}
+    Material: {fileID: 2100000, guid: 5c358a7691a232f4f99323fe02ef1bfc, type: 2}
+    LODTexture: {fileID: 2800000, guid: 355bc9f07c30b7844b9d8f5358552399, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 0.6320754, g: 0.32663202, b: 0.2653524, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Building
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Stone
+    MusicCategory: PlayerBlock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: MortaredSandstoneFloor
+    Builder: {fileID: 11400000, guid: b0bedd5d5a1c0d940943603f5d813cd5, type: 2}
+    Material: {fileID: 2100000, guid: 5c358a7691a232f4f99323fe02ef1bfc, type: 2}
+    LODTexture: {fileID: 2800000, guid: 355bc9f07c30b7844b9d8f5358552399, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 0.6320754, g: 0.32663202, b: 0.2653524, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 0
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Terrain
+    Tier: 0
+    BlendingPriority: 90
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Stone
+    MusicCategory: PlayerBlock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: MortaredSandstoneColumn
+    Builder: {fileID: 11400000, guid: 78a02aa5c9e43784487002913e0116f0, type: 2}
+    Material: {fileID: 2100000, guid: 5c358a7691a232f4f99323fe02ef1bfc, type: 2}
+    LODTexture: {fileID: 2800000, guid: 355bc9f07c30b7844b9d8f5358552399, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 0.6320754, g: 0.32663202, b: 0.2653524, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Stone
+    MusicCategory: PlayerBlock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: MortaredSandstoneSlope
+    Builder: {fileID: 11400000, guid: 9ce2bbe63a7a0214f80aced85bed6795, type: 2}
+    Material: {fileID: 2100000, guid: 5c358a7691a232f4f99323fe02ef1bfc, type: 2}
+    LODTexture: {fileID: 2800000, guid: 355bc9f07c30b7844b9d8f5358552399, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 0.6320754, g: 0.32663202, b: 0.2653524, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 0
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Building
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Stone
+    MusicCategory: PlayerBlock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: MortaredSandstoneStacked1
+    Builder: {fileID: 11400000, guid: ad46eda26752b8745927f1c257597b54, type: 2}
+    Material: {fileID: 2100000, guid: df207e21d551dda40987ef9888a06619, type: 2}
+    LODTexture: {fileID: 2800000, guid: 355bc9f07c30b7844b9d8f5358552399, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 0.6320754, g: 0.32663202, b: 0.2653524, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Stone
+    MusicCategory: PlayerBlock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: MortaredSandstoneStacked2
+    Builder: {fileID: 11400000, guid: f225319ec152ad7478e3f984b9105069, type: 2}
+    Material: {fileID: 2100000, guid: df207e21d551dda40987ef9888a06619, type: 2}
+    LODTexture: {fileID: 2800000, guid: 355bc9f07c30b7844b9d8f5358552399, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 0.6320754, g: 0.32663202, b: 0.2653524, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Stone
+    MusicCategory: PlayerBlock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: MortaredSandstoneStacked3
+    Builder: {fileID: 11400000, guid: b285919bbbf1a0a419659d04006d5029, type: 2}
+    Material: {fileID: 2100000, guid: df207e21d551dda40987ef9888a06619, type: 2}
+    LODTexture: {fileID: 2800000, guid: 355bc9f07c30b7844b9d8f5358552399, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 0.6320754, g: 0.32663202, b: 0.2653524, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Stone
+    MusicCategory: PlayerBlock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: MortaredSandstoneWindowGrilles
+    Builder: {fileID: 11400000, guid: f3a037e91afa9184395f5f0a472612c3, type: 2}
+    Material: {fileID: 2100000, guid: 5c358a7691a232f4f99323fe02ef1bfc, type: 2}
+    LODTexture: {fileID: 2800000, guid: 355bc9f07c30b7844b9d8f5358552399, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials:
+    - {fileID: 2100000, guid: 70fb4b6b44d822d43a1da5e72b4f83d9, type: 2}
+    OverrideSubMaterialsTransparency: 00
+    MinimapColor: {r: 0.6320754, g: 0.32663202, b: 0.2653524, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Building
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Stone
+    MusicCategory: PlayerBlock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: MortaredSandstoneCube
+    Builder: {fileID: 11400000, guid: 2326a35f441b6de4da4979e1dfe93bc6, type: 2}
+    Material: {fileID: 2100000, guid: 5c358a7691a232f4f99323fe02ef1bfc, type: 2}
+    LODTexture: {fileID: 2800000, guid: 355bc9f07c30b7844b9d8f5358552399, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 0.6320754, g: 0.32663202, b: 0.2653524, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 0
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Terrain
+    Tier: 0
+    BlendingPriority: 90
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Stone
+    MusicCategory: PlayerBlock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: MortaredSandstoneRoof
+    Builder: {fileID: 11400000, guid: dc4f61cf289790442a4a0e7529da5c1b, type: 2}
+    Material: {fileID: 2100000, guid: a52de43fc14273f4d8729c63e386df02, type: 2}
+    LODTexture: {fileID: 2800000, guid: 355bc9f07c30b7844b9d8f5358552399, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 0.6320754, g: 0.32663202, b: 0.2653524, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Roof
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Stone
+    MusicCategory: PlayerBlock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: MortaredSandstoneChimney
+    Builder: {fileID: 11400000, guid: a6329d17a3b7d3e459ebe886c3150512, type: 2}
+    Material: {fileID: 2100000, guid: 5c358a7691a232f4f99323fe02ef1bfc, type: 2}
+    LODTexture: {fileID: 2800000, guid: 355bc9f07c30b7844b9d8f5358552399, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 0.6320754, g: 0.32663202, b: 0.2653524, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 0
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Chimney
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Stone
+    MusicCategory: PlayerBlock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: MortaredSandstoneRoofPeakSet
+    Builder: {fileID: 11400000, guid: e74f6394c29f74c45b7335c1e6e39ded, type: 2}
+    Material: {fileID: 2100000, guid: a52de43fc14273f4d8729c63e386df02, type: 2}
+    LODTexture: {fileID: 2800000, guid: 355bc9f07c30b7844b9d8f5358552399, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 0.6320754, g: 0.32663202, b: 0.2653524, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Stone
+    MusicCategory: PlayerBlock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: MortaredSandstoneRoofSide
+    Builder: {fileID: 11400000, guid: a71195764f28a724e8cdf242f1610a14, type: 2}
+    Material: {fileID: 2100000, guid: a52de43fc14273f4d8729c63e386df02, type: 2}
+    LODTexture: {fileID: 2800000, guid: 355bc9f07c30b7844b9d8f5358552399, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 0.6320754, g: 0.32663202, b: 0.2653524, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Stone
+    MusicCategory: PlayerBlock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: MortaredSandstoneRoofSide90
+    Builder: {fileID: 11400000, guid: d2cf0c876a331d1498847c064f9fff9c, type: 2}
+    Material: {fileID: 2100000, guid: a52de43fc14273f4d8729c63e386df02, type: 2}
+    LODTexture: {fileID: 2800000, guid: 355bc9f07c30b7844b9d8f5358552399, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 0.6320754, g: 0.32663202, b: 0.2653524, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Stone
+    MusicCategory: PlayerBlock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: MortaredSandstoneRoofSide180
+    Builder: {fileID: 11400000, guid: 8d80260715b05914d9d3b1ab6d37ae7e, type: 2}
+    Material: {fileID: 2100000, guid: a52de43fc14273f4d8729c63e386df02, type: 2}
+    LODTexture: {fileID: 2800000, guid: 355bc9f07c30b7844b9d8f5358552399, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 0.6320754, g: 0.32663202, b: 0.2653524, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Stone
+    MusicCategory: PlayerBlock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: MortaredSandstoneRoofSide270
+    Builder: {fileID: 11400000, guid: 78295d455d7745c478f507084db7d499, type: 2}
+    Material: {fileID: 2100000, guid: a52de43fc14273f4d8729c63e386df02, type: 2}
+    LODTexture: {fileID: 2800000, guid: 355bc9f07c30b7844b9d8f5358552399, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 0.6320754, g: 0.32663202, b: 0.2653524, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Stone
+    MusicCategory: PlayerBlock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: MortaredSandstoneRoofTurn
+    Builder: {fileID: 11400000, guid: ce1c535b5da21f045bafe005c6748c2c, type: 2}
+    Material: {fileID: 2100000, guid: a52de43fc14273f4d8729c63e386df02, type: 2}
+    LODTexture: {fileID: 2800000, guid: 355bc9f07c30b7844b9d8f5358552399, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 0.6320754, g: 0.32663202, b: 0.2653524, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Stone
+    MusicCategory: PlayerBlock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: MortaredSandstoneRoofTurn90
+    Builder: {fileID: 11400000, guid: 10d4c89a8b2560141a17ab6d0f3b48ea, type: 2}
+    Material: {fileID: 2100000, guid: a52de43fc14273f4d8729c63e386df02, type: 2}
+    LODTexture: {fileID: 2800000, guid: 355bc9f07c30b7844b9d8f5358552399, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 0.6320754, g: 0.32663202, b: 0.2653524, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Stone
+    MusicCategory: PlayerBlock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: MortaredSandstoneRoofTurn180
+    Builder: {fileID: 11400000, guid: d09cda652a9638a48b31963aef053925, type: 2}
+    Material: {fileID: 2100000, guid: a52de43fc14273f4d8729c63e386df02, type: 2}
+    LODTexture: {fileID: 2800000, guid: 355bc9f07c30b7844b9d8f5358552399, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 0.6320754, g: 0.32663202, b: 0.2653524, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Stone
+    MusicCategory: PlayerBlock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: MortaredSandstoneRoofTurn270
+    Builder: {fileID: 11400000, guid: 6b5623ef02c5bdc4a89c613077ab7277, type: 2}
+    Material: {fileID: 2100000, guid: a52de43fc14273f4d8729c63e386df02, type: 2}
+    LODTexture: {fileID: 2800000, guid: 355bc9f07c30b7844b9d8f5358552399, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 0.6320754, g: 0.32663202, b: 0.2653524, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Stone
+    MusicCategory: PlayerBlock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: MortaredSandstoneRoofCorner
+    Builder: {fileID: 11400000, guid: 22712315938732344ad7f18137250c63, type: 2}
+    Material: {fileID: 2100000, guid: a52de43fc14273f4d8729c63e386df02, type: 2}
+    LODTexture: {fileID: 2800000, guid: 355bc9f07c30b7844b9d8f5358552399, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 0.6320754, g: 0.32663202, b: 0.2653524, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Stone
+    MusicCategory: PlayerBlock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: MortaredSandstoneRoofCorner90
+    Builder: {fileID: 11400000, guid: 125bc33f45f0ce94f887fab8f11a8a74, type: 2}
+    Material: {fileID: 2100000, guid: a52de43fc14273f4d8729c63e386df02, type: 2}
+    LODTexture: {fileID: 2800000, guid: 355bc9f07c30b7844b9d8f5358552399, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 0.6320754, g: 0.32663202, b: 0.2653524, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Stone
+    MusicCategory: PlayerBlock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: MortaredSandstoneRoofCorner180
+    Builder: {fileID: 11400000, guid: 5d10c505a477b43498d4f67b2b4b05fb, type: 2}
+    Material: {fileID: 2100000, guid: a52de43fc14273f4d8729c63e386df02, type: 2}
+    LODTexture: {fileID: 2800000, guid: 355bc9f07c30b7844b9d8f5358552399, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 0.6320754, g: 0.32663202, b: 0.2653524, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Stone
+    MusicCategory: PlayerBlock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: MortaredSandstoneRoofCorner270
+    Builder: {fileID: 11400000, guid: 74e89ce40d9bd0f4a84cca3de5bb0bd4, type: 2}
+    Material: {fileID: 2100000, guid: a52de43fc14273f4d8729c63e386df02, type: 2}
+    LODTexture: {fileID: 2800000, guid: 355bc9f07c30b7844b9d8f5358552399, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 0.6320754, g: 0.32663202, b: 0.2653524, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Stone
+    MusicCategory: PlayerBlock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: MortaredSandstoneRoofPeak
+    Builder: {fileID: 11400000, guid: 6e0d391aefb0cea4a959d7f4781e3dc1, type: 2}
+    Material: {fileID: 2100000, guid: a52de43fc14273f4d8729c63e386df02, type: 2}
+    LODTexture: {fileID: 2800000, guid: 355bc9f07c30b7844b9d8f5358552399, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 0.6320754, g: 0.32663202, b: 0.2653524, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Stone
+    MusicCategory: PlayerBlock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: MortaredSandstoneRoofPeak90
+    Builder: {fileID: 11400000, guid: 16a6b9f922dda4e4c891ef14bec79e7a, type: 2}
+    Material: {fileID: 2100000, guid: a52de43fc14273f4d8729c63e386df02, type: 2}
+    LODTexture: {fileID: 2800000, guid: 355bc9f07c30b7844b9d8f5358552399, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 0.6320754, g: 0.32663202, b: 0.2653524, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Stone
+    MusicCategory: PlayerBlock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: MortaredSandstoneRoofPeak180
+    Builder: {fileID: 11400000, guid: 1b1be39fb6dfb7c4583f6d6894d13dcf, type: 2}
+    Material: {fileID: 2100000, guid: a52de43fc14273f4d8729c63e386df02, type: 2}
+    LODTexture: {fileID: 2800000, guid: 355bc9f07c30b7844b9d8f5358552399, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 0.6320754, g: 0.32663202, b: 0.2653524, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Stone
+    MusicCategory: PlayerBlock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: MortaredSandstoneRoofPeak270
+    Builder: {fileID: 11400000, guid: 910545ba726d4894bb7186d119e03347, type: 2}
+    Material: {fileID: 2100000, guid: a52de43fc14273f4d8729c63e386df02, type: 2}
+    LODTexture: {fileID: 2800000, guid: 355bc9f07c30b7844b9d8f5358552399, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 0.6320754, g: 0.32663202, b: 0.2653524, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Stone
+    MusicCategory: PlayerBlock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: MortaredSandstoneRoofCube
+    Builder: {fileID: 11400000, guid: 0390703d94ac5104087a14f8b3b9a412, type: 2}
+    Material: {fileID: 2100000, guid: a52de43fc14273f4d8729c63e386df02, type: 2}
+    LODTexture: {fileID: 2800000, guid: 355bc9f07c30b7844b9d8f5358552399, type: 3}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 0.6320754, g: 0.32663202, b: 0.2653524, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 0
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Terrain
+    Tier: 0
+    BlendingPriority: 90
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Stone
+    MusicCategory: PlayerBlock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1410523891150450, guid: 1e5a87c7869ed1440b691b23fc107ff5, type: 3}
+    - {fileID: 1843124793107784, guid: 53dd0cbdb441c714088a6c7fe34fa1fc, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}

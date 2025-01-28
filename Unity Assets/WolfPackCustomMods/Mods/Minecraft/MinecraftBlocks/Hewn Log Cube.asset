@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a06e2ecf2771c9142926f067d120ded4, type: 3}
+  m_Name: Hewn Log Cube
+  m_EditorClassIdentifier: 
+  usageCases:
+  - enabled: 1
+    mesh: {fileID: 100000, guid: 252630395397ac14cb136436ab7f88a4, type: 3}
+    blockMeshLodGroup: {fileID: 11400000, guid: 74cf82b030637994cac181f2d2a00e5f,
+      type: 2}
+    isMeshFacesConcave: 0
+    meshAlternates: []
+    isMeshAlternatesFacesConcave: 
+    conditions: []
+    applyConditionsToAllRotations: 1
+    axis: 1
+    dontRotateBaseMesh: 0
+    importRotation: {x: 0, y: 0, z: 0}
+    decorativeBuilders: []
+  previewMaterial: {fileID: 2100000, guid: a0ddaafa09154cc46b525564d1141a27, type: 2}

@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bad84a2cfb63014f88243989c9d3ef2, type: 3}
+  m_Name: MinecraftOakPlanksBlockSet
+  m_EditorClassIdentifier: 
+  Blocks:
+  - Name: MinecraftOakPlanks
+    Builder: {fileID: 11400000, guid: 51653f07021fb6d45b5fb0d4f7c1de26, type: 2}
+    Material: {fileID: 2100000, guid: 4d0cbebeb3c38994085271e570a23977, type: 2}
+    LODTexture: {fileID: 0}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 0, g: 1, b: 0, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: Wood
+    MusicCategory: PlayerBlock
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1833362825397382, guid: 5b4477d311dc46b4ea76ef4649169315, type: 3}
+    - {fileID: 1767679803757342, guid: 17969030687c4984ab9970d0511ec7a1, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
+  - Name: MinecraftOakPlanksStacked1
+    Builder: {fileID: 11400000, guid: 8004c530c088bcc4c82489b2a14b4aaa, type: 2}
+    Material: {fileID: 2100000, guid: 4d0cbebeb3c38994085271e570a23977, type: 2}
+    LODTexture: {fileID: 0}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 0, g: 1, b: 0, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 1
+    WaterOccupancy: 0
+    WaterLoggable: 1
+    BuildCollider: 1
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: 
+    MusicCategory: 
+    Effects:
+    - {fileID: 131422, guid: 94a16b109b7fd1149acf926564bb8162, type: 3}
+    - {fileID: 131422, guid: 7e544514f0ac1f243b996e192e70319a, type: 3}
+    - {fileID: 1833362825397382, guid: 5b4477d311dc46b4ea76ef4649169315, type: 3}
+    - {fileID: 1767679803757342, guid: 17969030687c4984ab9970d0511ec7a1, type: 3}
+    EffectNames:
+    - Place
+    - Delete
+    - Place
+    - Delete
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}
