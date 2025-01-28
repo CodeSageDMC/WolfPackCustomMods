@@ -219,6 +219,7 @@
     <None Include="Server\Mods\UserCode\WolfPackCustomMods\WolfPackChefs\Mixology\Brewery\Assets\Mixology-BreweryExpansion.unity3d" />
     <None Include="Server\Mods\UserCode\WolfPackCustomMods\WolfPackChefs\Objects\DryingBed.unity3d" />
     <None Include="Server\Mods\UserCode\WolfPackCustomMods\WolfPackChefs\WolfPackChefs.unity3d" />
+    <None Include="Unity Assets\MinecraftUnityPackage.unitypackage" />
     <None Include="Unity Assets\Scenes\Eco420.unity" />
     <None Include="Unity Assets\Scenes\Eco420_CustomFoodOverhaulVersion.unity" />
     <None Include="Unity Assets\Scenes\Orrery.unity" />
