@@ -219,7 +219,6 @@
     <None Include="Server\Mods\UserCode\WolfPackCustomMods\WolfPackChefs\Mixology\Brewery\Assets\Mixology-BreweryExpansion.unity3d" />
     <None Include="Server\Mods\UserCode\WolfPackCustomMods\WolfPackChefs\Objects\DryingBed.unity3d" />
     <None Include="Server\Mods\UserCode\WolfPackCustomMods\WolfPackChefs\WolfPackChefs.unity3d" />
-    <None Include="Unity Assets\MinecraftUnityPackage.unitypackage" />
     <None Include="Unity Assets\Scenes\Eco420.unity" />
     <None Include="Unity Assets\Scenes\Eco420_CustomFoodOverhaulVersion.unity" />
     <None Include="Unity Assets\Scenes\Orrery.unity" />
@@ -861,12 +860,17 @@
     <None Include="WolfPackCustomMods-Eco420_v1.1.zip" />
     <None Include="WolfPackCustomMods-Eco420_v2.1.zip" />
     <None Include="WolfPackCustomMods-Eco420_v2.2.zip" />
+    <None Include="WolfPackCustomMods-Eco420_v2.3.zip" />
+    <None Include="WolfPackCustomMods-Eco420_v3.zip" />
+    <None Include="WolfPackCustomMods-MinecraftTributePack_v1.1.zip" />
+    <None Include="WolfPackCustomMods-MinecraftTributePack_v1.zip" />
     <None Include="WolfPackCustomMods-Orrery_v1_0_0.zip" />
     <None Include="WolfPackCustomMods-Orrery_v1_0_1.zip" />
     <None Include="WolfPackCustomMods-Orrery_v1_0_2.zip" />
     <None Include="WolfPackCustomMods-Orrery_v1_0_3.zip" />
     <None Include="WolfPackCustomMods-Orrery_v2.0.zip" />
     <None Include="WolfPackCustomMods-Orrery_v2.1.zip" />
+    <None Include="WolfPackCustomMods-Orrery_v3.zip" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Server\Mods\UserCode\WolfPackCustomMods\WolfPackChefs\AdvancedBaking\" />
