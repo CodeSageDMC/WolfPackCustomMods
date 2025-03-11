@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a06e2ecf2771c9142926f067d120ded4, type: 3}
+  m_Name: AluminumBar4
+  m_EditorClassIdentifier: 
+  usageCases:
+  - enabled: 1
+    mesh: {fileID: -927199367670048503, guid: 670826a5913850045b7827fbd07fc2eb, type: 3}
+    blockMeshLodGroup: {fileID: 11400000, guid: 8a469ef0748f9c445a8c5fb122b25800,
+      type: 2}
+    isMeshFacesConcave: 0
+    meshAlternates: []
+    isMeshAlternatesFacesConcave: 
+    conditions: []
+    applyConditionsToAllRotations: 1
+    axis: 1
+    dontRotateBaseMesh: 0
+    importRotation: {x: 0, y: 0, z: 0}
+    decorativeBuilders: []
+  previewMaterial: {fileID: 2100000, guid: f228e9d44d72ee6468abb8e79c3cf960, type: 2}

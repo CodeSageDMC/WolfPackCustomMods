@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a06e2ecf2771c9142926f067d120ded4, type: 3}
+  m_Name: CannabisPlantCC
+  m_EditorClassIdentifier: 
+  usageCases:
+  - enabled: 1
+    mesh: {fileID: 3524834551665575545, guid: c64154c1b9ac36a4fbb8683f7005e48d, type: 3}
+    blockMeshLodGroup: {fileID: 0}
+    isMeshFacesConcave: 0
+    meshAlternates: []
+    isMeshAlternatesFacesConcave: 
+    conditions: []
+    applyConditionsToAllRotations: 0
+    axis: 0
+    dontRotateBaseMesh: 0
+    importRotation: {x: 0, y: 0, z: 0}
+    decorativeBuilders: []
+  previewMaterial: {fileID: 2100000, guid: faca1dca0dbe8744eb674c5e22ea26d0, type: 2}

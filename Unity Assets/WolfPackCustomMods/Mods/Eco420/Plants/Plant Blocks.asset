@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bad84a2cfb63014f88243989c9d3ef2, type: 3}
+  m_Name: Plant Blocks
+  m_EditorClassIdentifier: 
+  Blocks:
+  - Name: CannabisPlant
+    Builder: {fileID: 11400000, guid: 481d49d38bdbe20458b32aaa15c658ac, type: 2}
+    Material: {fileID: 2100000, guid: faca1dca0dbe8744eb674c5e22ea26d0, type: 2}
+    LODTexture: {fileID: 0}
+    OverrideMainMaterialTransparency: 0
+    Materials: []
+    OverrideSubMaterialsTransparency: 
+    MinimapColor: {r: 0, g: 1, b: 0, a: 1}
+    IsDiggable: 0
+    IsWater: 0
+    Solid: 0
+    WaterOccupancy: 0
+    WaterLoggable: 0
+    BuildCollider: 0
+    Rendered: 1
+    ShadowCastingMode: 1
+    Layer: Terrain
+    Category: Default
+    Tier: 0
+    BlendingPriority: 0
+    GenerateMeshCollider: 0
+    IsEmpty: 0
+    PrefabHeightOffset: -0.5
+    ActualHeight: 1
+    AudioCategory: TallGrass
+    MusicCategory: 
+    Effects:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    EffectNames:
+    - Harvest
+    - VehicleHarvest
+    - Delete
+    - Pickup
+    IsLadder: 0
+    IsSlope: 0
+    Editor: {fileID: 0}

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 990562a2c7a14518b8146acf97468d94, type: 3}
+  m_Name: Animset_Eat_BottledBeer
+  m_EditorClassIdentifier: 
+  OverrideStates:
+  - State: FPV_Eat_Loop_Exit
+    Clip: {fileID: 1827226128182048838, guid: 85d4a0bff7f4126478c506c2be1cad88, type: 3}
+  - State: FPV_Eat_Loop_Start
+    Clip: {fileID: 1827226128182048838, guid: 6253b2502079b25499151cce6973a506, type: 3}
+  - State: FPV_Eat_Loop
+    Clip: {fileID: -5988646910399040575, guid: 86a690832bc49244bba3afd70b789ba1, type: 3}
+  - State: FPV_Hands_Idle
+    Clip: {fileID: 1827226128182048838, guid: 5cf09e3adcfbce5438445768bf65462a, type: 3}
+  - State: FPV_Hands_Idle_Start
+    Clip: {fileID: 1827226128182048838, guid: 62ca31af439f6b54893a798176dcd754, type: 3}
+  - State: FPV_Hands_Idle_Exit
+    Clip: {fileID: 1827226128182048838, guid: 0d75786dca6c6d349a6a00094903b837, type: 3}
+  - State: FPV_Eat_Gulp
+    Clip: {fileID: 6529292053368244388, guid: ce2b6ce492d9bf1488a9c79e7acc7dd9, type: 3}
